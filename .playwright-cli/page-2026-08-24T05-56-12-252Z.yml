@@ -1,0 +1,294 @@
+- generic [ref=e3]:
+  - link "跳到主要內容" [ref=e4] [cursor=pointer]:
+    - /url: "#main-content"
+  - complementary "課程導覽" [ref=e5]:
+    - generic [ref=e6]:
+      - generic [ref=e11]:
+        - strong [ref=e12]: Agent Path
+        - generic [ref=e13]: AI Agent 自學系統
+      - button "關閉導覽" [ref=e14] [cursor=pointer]
+    - navigation "主要功能" [ref=e18]:
+      - button "學習總站" [ref=e19] [cursor=pointer]
+      - button "名詞百科" [ref=e23] [cursor=pointer]
+      - button "Debug Lab" [ref=e26] [cursor=pointer]
+    - generic [ref=e36]:
+      - generic [ref=e37]: 課程路線
+      - generic [ref=e38]: 0/16
+    - generic [ref=e39]:
+      - generic [ref=e40]:
+        - button "Phase 1 AI 基礎" [expanded] [ref=e41] [cursor=pointer]:
+          - generic [ref=e43]:
+            - generic [ref=e44]: Phase 1
+            - text: AI 基礎
+        - generic [ref=e47]:
+          - button "Lesson 01 LLM 是什麼" [ref=e48] [cursor=pointer]:
+            - generic [ref=e50]:
+              - generic [ref=e51]: Lesson 01
+              - text: LLM 是什麼
+          - button "Lesson 02 Prompt 是什麼" [ref=e52] [cursor=pointer]:
+            - generic [ref=e54]:
+              - generic [ref=e55]: Lesson 02
+              - text: Prompt 是什麼
+          - button "Lesson 03 Agent 是什麼" [ref=e56] [cursor=pointer]:
+            - generic [ref=e58]:
+              - generic [ref=e59]: Lesson 03
+              - text: Agent 是什麼
+          - button "Lesson 04 Tool 是什麼" [ref=e60] [cursor=pointer]:
+            - generic [ref=e62]:
+              - generic [ref=e63]: Lesson 04
+              - text: Tool 是什麼
+          - button "Lesson 05 Workflow 是什麼" [ref=e64] [cursor=pointer]:
+            - generic [ref=e66]:
+              - generic [ref=e67]: Lesson 05
+              - text: Workflow 是什麼
+          - button "Lesson 06 Agent vs Workflow" [ref=e68] [cursor=pointer]:
+            - generic [ref=e70]:
+              - generic [ref=e71]: Lesson 06
+              - text: Agent vs Workflow
+          - button "Lesson 07 Skill 是什麼" [ref=e72] [cursor=pointer]:
+            - generic [ref=e74]:
+              - generic [ref=e75]: Lesson 07
+              - text: Skill 是什麼
+          - button "Lesson 08 Plugin 是什麼" [ref=e76] [cursor=pointer]:
+            - generic [ref=e78]:
+              - generic [ref=e79]: Lesson 08
+              - text: Plugin 是什麼
+          - button "Lesson 09 Memory 是什麼" [ref=e80] [cursor=pointer]:
+            - generic [ref=e82]:
+              - generic [ref=e83]: Lesson 09
+              - text: Memory 是什麼
+          - button "Lesson 10 Knowledge Base 是什麼" [ref=e84] [cursor=pointer]:
+            - generic [ref=e86]:
+              - generic [ref=e87]: Lesson 10
+              - text: Knowledge Base 是什麼
+      - generic [ref=e88]:
+        - button "Phase 2 Coze" [expanded] [ref=e89] [cursor=pointer]:
+          - generic [ref=e91]:
+            - generic [ref=e92]: Phase 2
+            - text: Coze
+        - generic [ref=e95]:
+          - button "Lesson 11 Coze 是什麼" [ref=e96] [cursor=pointer]:
+            - generic [ref=e98]:
+              - generic [ref=e99]: Lesson 11
+              - text: Coze 是什麼
+          - button "Lesson 12 建立第一個 Agent" [ref=e100] [cursor=pointer]:
+            - generic [ref=e102]:
+              - generic [ref=e103]: Lesson 12
+              - text: 建立第一個 Agent
+          - button "Lesson 13 建立第一個 Workflow" [ref=e104] [cursor=pointer]:
+            - generic [ref=e106]:
+              - generic [ref=e107]: Lesson 13
+              - text: 建立第一個 Workflow
+          - button "Lesson 14 Start Node" [ref=e108] [cursor=pointer]:
+            - generic [ref=e110]:
+              - generic [ref=e111]: Lesson 14
+              - text: Start Node
+          - button "Lesson 15 LLM Node" [ref=e112] [cursor=pointer]:
+            - generic [ref=e114]:
+              - generic [ref=e115]: Lesson 15
+              - text: LLM Node
+          - button "Lesson 16 End Node 與完整測試" [ref=e116] [cursor=pointer]:
+            - generic [ref=e118]:
+              - generic [ref=e119]: Lesson 16
+              - text: End Node 與完整測試
+      - button "Phase 3 Workflow" [ref=e121]:
+        - generic [ref=e123]:
+          - generic [ref=e124]: Phase 3
+          - text: Workflow
+      - button "Phase 4 API" [ref=e130]:
+        - generic [ref=e132]:
+          - generic [ref=e133]: Phase 4
+          - text: API
+      - button "Phase 5 n8n" [ref=e139]:
+        - generic [ref=e141]:
+          - generic [ref=e142]: Phase 5
+          - text: n8n
+      - button "Phase 6 Dify" [ref=e148]:
+        - generic [ref=e150]:
+          - generic [ref=e151]: Phase 6
+          - text: Dify
+      - button "Phase 7 MCP" [ref=e157]:
+        - generic [ref=e159]:
+          - generic [ref=e160]: Phase 7
+          - text: MCP
+      - button "Phase 8 Python" [ref=e166]:
+        - generic [ref=e168]:
+          - generic [ref=e169]: Phase 8
+          - text: Python
+      - button "Phase 9 LangGraph" [ref=e175]:
+        - generic [ref=e177]:
+          - generic [ref=e178]: Phase 9
+          - text: LangGraph
+      - button "Phase 10 多智能體" [ref=e184]:
+        - generic [ref=e186]:
+          - generic [ref=e187]: Phase 10
+          - text: 多智能體
+    - generic [ref=e192]: Course 0.1.0更新：2026-08-24
+  - main [ref=e359]:
+    - generic [ref=e360]:
+      - generic [ref=e361]:
+        - generic [ref=e362]: Phase 1
+        - generic [ref=e363]: Lesson 01
+      - heading "LLM 是什麼" [level=1] [ref=e364]
+      - paragraph [ref=e365]: 先認識會產生文字的 AI 大腦
+      - generic [ref=e366]:
+        - generic [ref=e367]: 約 45 分鐘
+        - generic [ref=e371]: 概念已確認
+    - generic [ref=e372]:
+      - article [ref=e373]:
+        - generic [ref=e374]:
+          - generic [ref=e377]:
+            - heading "預計學習目標" [level=2] [ref=e378]
+            - paragraph [ref=e379]: 理解 LLM 能做什麼、不能做什麼，以及為什麼流暢不等於正確。
+          - list [ref=e380]:
+            - listitem [ref=e381]: 用白話解釋 LLM
+            - listitem [ref=e384]: 分辨生成文字與查詢事實
+            - listitem [ref=e387]: 辨認需要查證的回答
+          - paragraph [ref=e390]:
+            - strong [ref=e391]: 前置知識：
+            - text: 不需要程式設計基礎
+        - generic [ref=e392]:
+          - generic [ref=e395]:
+            - heading "核心概念" [level=2] [ref=e396]
+            - paragraph [ref=e397]: 先用白話建立直覺，再進入正式定義。
+          - article [ref=e399]:
+            - heading "LLM 大型語言模型" [level=3] [ref=e400]
+            - generic [ref=e401]:
+              - generic [ref=e402]:
+                - term [ref=e403]: 白話
+                - definition [ref=e404]: 讀過大量文字後，根據上下文預測下一段文字的系統。
+              - generic [ref=e405]:
+                - term [ref=e406]: 正式定義
+                - definition [ref=e407]: 以大量文字資料訓練、依輸入產生文字序列的機器學習模型。
+              - generic [ref=e408]:
+                - term [ref=e409]: 為什麼需要
+                - definition [ref=e410]: 它是許多聊天機器人與 Agent 的語言能力來源。
+              - generic [ref=e411]:
+                - term [ref=e412]: 實際例子
+                - definition [ref=e413]: 把一段會議紀錄整理成三個重點。
+              - generic [ref=e414]:
+                - term [ref=e415]: 常見混淆
+                - definition [ref=e416]: LLM 不是資料庫，也不保證記得的是最新事實。
+        - generic [ref=e420]:
+          - heading "生活比喻" [level=2] [ref=e421]
+          - paragraph [ref=e422]: LLM 像一位讀過很多資料、很會接話的助理；他能快速起草，但交出的數字與來源仍要核對。
+        - generic [ref=e423]:
+          - generic [ref=e426]:
+            - heading "技術解釋" [level=2] [ref=e427]
+            - paragraph [ref=e428]: 把剛才的比喻換成系統裡真正發生的事。
+          - list [ref=e429]:
+            - listitem [ref=e430]:
+              - generic [ref=e431]: "1"
+              - text: 輸入文字會被模型轉成可計算的表示。
+            - listitem [ref=e432]:
+              - generic [ref=e433]: "2"
+              - text: 模型根據前文估計接下來最可能出現的內容。
+            - listitem [ref=e434]:
+              - generic [ref=e435]: "3"
+              - text: 它產生的是合理語句，不是自動完成事實查證。
+        - generic [ref=e436]:
+          - generic [ref=e439]:
+            - heading "圖解" [level=2] [ref=e440]
+            - paragraph [ref=e441]: 沿著資料方向，由上而下讀。
+          - generic "你的問題，然後LLM 根據上下文預測，然後產生回答，然後人工／工具查證" [ref=e442]:
+            - generic [ref=e443]: 你的問題
+            - generic [ref=e447]: LLM 根據上下文預測
+            - generic [ref=e451]: 產生回答
+            - generic [ref=e455]: 人工／工具查證
+        - generic [ref=e457]:
+          - generic [ref=e458]: 模擬案例
+          - generic [ref=e459]:
+            - heading "會議摘要助手" [level=2] [ref=e460]
+            - paragraph [ref=e461]: 輸入會議逐字稿，LLM 可以整理決策與待辦；人名、日期與金額仍需對照原文。
+        - generic [ref=e462]:
+          - generic [ref=e465]:
+            - heading "Step-by-Step 操作" [level=2] [ref=e466]
+            - paragraph [ref=e467]: 一次只做一站，看到結果再往下。
+          - list [ref=e468]:
+            - listitem [ref=e469]:
+              - generic [ref=e470]: "01"
+              - paragraph [ref=e471]: 找一段 100 字內的公開說明文字。
+            - listitem [ref=e472]:
+              - generic [ref=e473]: "02"
+              - paragraph [ref=e474]: 請 AI 用三點摘要，不加入原文沒有的資訊。
+            - listitem [ref=e475]:
+              - generic [ref=e476]: "03"
+              - paragraph [ref=e477]: 逐句把摘要與原文對照，標出新增或遺漏。
+        - generic [ref=e478]:
+          - generic [ref=e483]:
+            - heading "動手練習" [level=2] [ref=e484]
+            - paragraph [ref=e485]: 用一句話向家人解釋：為什麼 LLM 說得很順，答案仍可能錯？
+          - generic [ref=e486]:
+            - strong [ref=e487]: 完成標準
+            - list [ref=e488]:
+              - listitem [ref=e489]: 提到它是在產生文字
+              - listitem [ref=e490]: 提到流暢不代表已查證
+          - paragraph [ref=e491]: 提示：想想「很會接話」和「真的查過資料」是否相同。
+          - button "查看參考答案" [ref=e494] [cursor=pointer]
+        - region [ref=e495]:
+          - generic [ref=e498]:
+            - heading "小測驗" [level=2] [ref=e499]
+            - paragraph [ref=e500]: 先做判斷，再看逐題原因。答錯不是退步，而是找到下一個要修正的概念。
+          - group "1. LLM 產生很自然的文字，就代表內容已經查證。" [ref=e501]:
+            - generic [ref=e503]:
+              - generic [ref=e504] [cursor=pointer]:
+                - radio "A 正確" [checked] [ref=e505]
+                - generic [ref=e506]: A
+                - generic [ref=e507]: 正確
+              - generic [ref=e508] [cursor=pointer]:
+                - radio "B 錯誤" [ref=e509]
+                - generic [ref=e510]: B
+                - generic [ref=e511]: 錯誤
+            - status [ref=e578]:
+              - generic [ref=e581]:
+                - strong [ref=e582]: 你選的是 正確；正確答案是 錯誤
+                - paragraph [ref=e583]: LLM 的工作是產生文字；是否正確需要來源、工具或人工核對。
+          - generic [ref=e515]:
+            - button "提交並查看解析" [active] [ref=e516] [cursor=pointer]
+            - button "重新作答" [ref=e584] [cursor=pointer]
+            - generic [ref=e517]: 本次得分 0
+        - generic [ref=e518]:
+          - generic [ref=e521]:
+            - heading "常見錯誤與 Debug" [level=2] [ref=e522]
+            - paragraph [ref=e523]: 先定位第一個不符合預期的地方。
+          - generic [ref=e524]:
+            - generic [ref=e525]:
+              - strong [ref=e526]: 把模型記憶當成即時資料
+              - paragraph [ref=e529]: 原因：回答語氣很肯定
+              - paragraph [ref=e530]: 修復：要求來源與日期，再用可靠來源核對
+            - generic [ref=e531]:
+              - strong [ref=e532]: 一次要求太多任務
+              - paragraph [ref=e535]: 原因：沒有拆解目標
+              - paragraph [ref=e536]: 修復：先摘要，再查缺漏，最後改寫
+          - list [ref=e537]:
+            - listitem [ref=e538]:
+              - generic [ref=e539]: "1"
+              - text: 先說出你原本預期會發生什麼。
+            - listitem [ref=e540]:
+              - generic [ref=e541]: "2"
+              - text: 找到第一個與預期不同的步驟，不要一次改很多地方。
+            - listitem [ref=e542]:
+              - generic [ref=e543]: "3"
+              - text: 檢查輸入、輸出與名詞是否用對，再只修改一項並重試。
+            - listitem [ref=e544]:
+              - generic [ref=e545]: "4"
+              - text: 把「錯誤現象 → 原因 → 修改 → 結果」記錄成一句話。
+        - generic [ref=e550]:
+          - heading "本課總結" [level=2] [ref=e551]
+          - list [ref=e552]:
+            - listitem [ref=e553]: LLM 擅長理解與產生文字。
+            - listitem [ref=e554]: 流暢不等於正確或最新。
+            - listitem [ref=e555]: 重要事實需要工具、來源或人工驗證。
+          - paragraph [ref=e556]: 下一課：Prompt 是什麼
+        - generic [ref=e557]:
+          - strong [ref=e558]: 內容驗證狀態
+          - paragraph [ref=e559]: 穩定概念；已列入官方來源核對清單。
+          - link "查看 Coze 官方資料" [ref=e560] [cursor=pointer]:
+            - /url: https://github.com/coze-dev/coze-studio/wiki
+      - complementary "本課進度" [ref=e565]:
+        - generic [ref=e566]: Lesson 01
+        - strong [ref=e567]: 完成閱讀與練習後標記
+        - button "完成本課" [ref=e568] [cursor=pointer]
+        - generic [ref=e571]:
+          - button "上一課" [disabled] [ref=e572]
+          - button "下一課" [ref=e575] [cursor=pointer]

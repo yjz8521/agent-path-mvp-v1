@@ -1,0 +1,235 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-08-24T14:38:11.2748143+08:00",
+  "title": "Design System: Agent Path — Creator Hardware Console",
+  "extensions": {
+    "colorMeta": {
+      "ink": {
+        "role": "neutral",
+        "displayName": "Ink Black",
+        "canonical": "#1c1e1f",
+        "tonalRamp": ["oklch(15% 0.004 229.0)", "oklch(27% 0.004 229.0)", "oklch(39% 0.004 229.0)", "oklch(51% 0.004 229.0)", "oklch(63% 0.004 229.0)", "oklch(75% 0.004 229.0)", "oklch(87% 0.004 229.0)", "oklch(95% 0.004 229.0)"]
+      },
+      "muted": {
+        "role": "neutral",
+        "displayName": "Muted Utility",
+        "canonical": "#666862",
+        "tonalRamp": ["oklch(15% 0.010 121.8)", "oklch(27% 0.010 121.8)", "oklch(39% 0.010 121.8)", "oklch(51% 0.010 121.8)", "oklch(63% 0.010 121.8)", "oklch(75% 0.010 121.8)", "oklch(87% 0.010 121.8)", "oklch(95% 0.010 121.8)"]
+      },
+      "paper": {
+        "role": "neutral",
+        "displayName": "Bone Paper",
+        "canonical": "#f8f7f2",
+        "tonalRamp": ["oklch(15% 0.007 97.4)", "oklch(27% 0.007 97.4)", "oklch(39% 0.007 97.4)", "oklch(51% 0.007 97.4)", "oklch(63% 0.007 97.4)", "oklch(75% 0.007 97.4)", "oklch(87% 0.007 97.4)", "oklch(95% 0.007 97.4)"]
+      },
+      "ground": {
+        "role": "neutral",
+        "displayName": "Putty Ground",
+        "canonical": "#e9e8e3",
+        "tonalRamp": ["oklch(15% 0.007 97.4)", "oklch(27% 0.007 97.4)", "oklch(39% 0.007 97.4)", "oklch(51% 0.007 97.4)", "oklch(63% 0.007 97.4)", "oklch(75% 0.007 97.4)", "oklch(87% 0.007 97.4)", "oklch(95% 0.007 97.4)"]
+      },
+      "line": {
+        "role": "neutral",
+        "displayName": "Hairline Putty",
+        "canonical": "#cfcdc4",
+        "tonalRamp": ["oklch(15% 0.012 96.4)", "oklch(27% 0.012 96.4)", "oklch(39% 0.012 96.4)", "oklch(51% 0.012 96.4)", "oklch(63% 0.012 96.4)", "oklch(75% 0.012 96.4)", "oklch(87% 0.012 96.4)", "oklch(95% 0.012 96.4)"]
+      },
+      "line-strong": {
+        "role": "neutral",
+        "displayName": "Strong Rail",
+        "canonical": "#a9a79f",
+        "tonalRamp": ["oklch(15% 0.012 95.2)", "oklch(27% 0.012 95.2)", "oklch(39% 0.012 95.2)", "oklch(51% 0.012 95.2)", "oklch(63% 0.012 95.2)", "oklch(75% 0.012 95.2)", "oklch(87% 0.012 95.2)", "oklch(95% 0.012 95.2)"]
+      },
+      "safety-orange": {
+        "role": "primary",
+        "displayName": "Safety Orange",
+        "canonical": "#ff5a1f",
+        "tonalRamp": ["oklch(15% 0.180 37.7)", "oklch(27% 0.180 37.7)", "oklch(39% 0.180 37.7)", "oklch(51% 0.180 37.7)", "oklch(63% 0.180 37.7)", "oklch(75% 0.180 37.7)", "oklch(87% 0.180 37.7)", "oklch(95% 0.180 37.7)"]
+      },
+      "action-orange": {
+        "role": "primary",
+        "displayName": "Action Key Orange",
+        "canonical": "#ff692f",
+        "tonalRamp": ["oklch(15% 0.180 39.7)", "oklch(27% 0.180 39.7)", "oklch(39% 0.180 39.7)", "oklch(51% 0.180 39.7)", "oklch(63% 0.180 39.7)", "oklch(75% 0.180 39.7)", "oklch(87% 0.180 39.7)", "oklch(95% 0.180 39.7)"]
+      },
+      "action-orange-hover": {
+        "role": "primary",
+        "displayName": "Action Key Hover",
+        "canonical": "#ff7b47",
+        "tonalRamp": ["oklch(15% 0.174 41.1)", "oklch(27% 0.174 41.1)", "oklch(39% 0.174 41.1)", "oklch(51% 0.174 41.1)", "oklch(63% 0.174 41.1)", "oklch(75% 0.174 41.1)", "oklch(87% 0.174 41.1)", "oklch(95% 0.174 41.1)"]
+      },
+      "action-orange-dark": {
+        "role": "primary",
+        "displayName": "Burnt Orange Depth",
+        "canonical": "#bd3511",
+        "tonalRamp": ["oklch(15% 0.178 34.6)", "oklch(27% 0.178 34.6)", "oklch(39% 0.178 34.6)", "oklch(51% 0.178 34.6)", "oklch(63% 0.178 34.6)", "oklch(75% 0.178 34.6)", "oklch(87% 0.178 34.6)", "oklch(95% 0.178 34.6)"]
+      },
+      "amber-status": {
+        "role": "secondary",
+        "displayName": "Amber Status",
+        "canonical": "#e7a923",
+        "tonalRamp": ["oklch(15% 0.152 80.4)", "oklch(27% 0.152 80.4)", "oklch(39% 0.152 80.4)", "oklch(51% 0.152 80.4)", "oklch(63% 0.152 80.4)", "oklch(75% 0.152 80.4)", "oklch(87% 0.152 80.4)", "oklch(95% 0.152 80.4)"]
+      },
+      "amber-soft": {
+        "role": "secondary",
+        "displayName": "Amber Putty",
+        "canonical": "#fff0c7",
+        "tonalRamp": ["oklch(15% 0.055 90.3)", "oklch(27% 0.055 90.3)", "oklch(39% 0.055 90.3)", "oklch(51% 0.055 90.3)", "oklch(63% 0.055 90.3)", "oklch(75% 0.055 90.3)", "oklch(87% 0.055 90.3)", "oklch(95% 0.055 90.3)"]
+      },
+      "success": {
+        "role": "tertiary",
+        "displayName": "Verified Green",
+        "canonical": "#217658",
+        "tonalRamp": ["oklch(15% 0.093 165.2)", "oklch(27% 0.093 165.2)", "oklch(39% 0.093 165.2)", "oklch(51% 0.093 165.2)", "oklch(63% 0.093 165.2)", "oklch(75% 0.093 165.2)", "oklch(87% 0.093 165.2)", "oklch(95% 0.093 165.2)"]
+      },
+      "success-soft": {
+        "role": "tertiary",
+        "displayName": "Verified Green Soft",
+        "canonical": "#dff1e8",
+        "tonalRamp": ["oklch(15% 0.022 164.5)", "oklch(27% 0.022 164.5)", "oklch(39% 0.022 164.5)", "oklch(51% 0.022 164.5)", "oklch(63% 0.022 164.5)", "oklch(75% 0.022 164.5)", "oklch(87% 0.022 164.5)", "oklch(95% 0.022 164.5)"]
+      },
+      "danger": {
+        "role": "tertiary",
+        "displayName": "Fault Red",
+        "canonical": "#bd3d37",
+        "tonalRamp": ["oklch(15% 0.165 26.8)", "oklch(27% 0.165 26.8)", "oklch(39% 0.165 26.8)", "oklch(51% 0.165 26.8)", "oklch(63% 0.165 26.8)", "oklch(75% 0.165 26.8)", "oklch(87% 0.165 26.8)", "oklch(95% 0.165 26.8)"]
+      },
+      "danger-soft": {
+        "role": "tertiary",
+        "displayName": "Fault Red Soft",
+        "canonical": "#f9e4df",
+        "tonalRamp": ["oklch(15% 0.024 33.5)", "oklch(27% 0.024 33.5)", "oklch(39% 0.024 33.5)", "oklch(51% 0.024 33.5)", "oklch(63% 0.024 33.5)", "oklch(75% 0.024 33.5)", "oklch(87% 0.024 33.5)", "oklch(95% 0.024 33.5)"]
+      },
+      "gunmetal": {
+        "role": "neutral",
+        "displayName": "Gunmetal Chassis",
+        "canonical": "#1b1e20",
+        "tonalRamp": ["oklch(15% 0.006 236.8)", "oklch(27% 0.006 236.8)", "oklch(39% 0.006 236.8)", "oklch(51% 0.006 236.8)", "oklch(63% 0.006 236.8)", "oklch(75% 0.006 236.8)", "oklch(87% 0.006 236.8)", "oklch(95% 0.006 236.8)"]
+      }
+    },
+    "typographyMeta": {
+      "display": { "displayName": "Display", "purpose": "Dashboard 與功能頁主標題。" },
+      "lesson-display": { "displayName": "Lesson Display", "purpose": "課程閱讀頁的主題標題。" },
+      "headline": { "displayName": "Headline", "purpose": "模組、段落與控制面標題。" },
+      "body": { "displayName": "Body", "purpose": "中文教學內容與長篇說明。" },
+      "label": { "displayName": "Telemetry Label", "purpose": "課次、版本、狀態、座標與數值。" }
+    },
+    "shadows": [
+      { "name": "hardware-surface", "value": "0 1px 0 rgb(255 255 255 / 80%) inset, 0 9px 22px -18px rgb(25 27 28 / 70%)", "purpose": "一般骨白面板與路線卡的結構分層。" },
+      { "name": "station-slab", "value": "0 1px 0 #fff inset, 0 14px 26px -20px #2a2b29", "purpose": "目前站點等主要硬體模組。" },
+      { "name": "chassis-key", "value": "0 2px 0 #101213, inset 0 1px 0 #414648", "purpose": "深色側欄控制鍵的鍵程。" },
+      { "name": "console-panel", "value": "0 1px 0 #505557 inset, 0 16px 30px -24px #000", "purpose": "Lesson 控制面板與深色機身。" }
+    ],
+    "motion": [
+      { "name": "control-press", "value": "0.12s ease", "purpose": "主要鍵 hover 與 active 的 1–2px 位移。" },
+      { "name": "disclosure", "value": "0.2s ease", "purpose": "Phase 展開箭頭的旋轉。" },
+      { "name": "mobile-drawer", "value": "0.28s cubic-bezier(0.16, 1, 0.3, 1)", "purpose": "手機側欄進出。" },
+      { "name": "station-confirm", "value": "0.9s cubic-bezier(0.16, 1, 0.3, 1)", "purpose": "目前站點狀態燈的一次性確認脈衝。" },
+      { "name": "reduced-motion", "value": "0.01ms", "purpose": "prefers-reduced-motion 下近乎即時完成轉場與動畫。" }
+    ],
+    "breakpoints": [
+      { "name": "rack-compact", "value": "1080px" },
+      { "name": "drawer", "value": "780px" },
+      { "name": "narrow", "value": "480px" }
+    ]
+  },
+  "components": [
+    {
+      "name": "Primary Action Key",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "每個畫面唯一的 safety-orange 承諾動作。",
+      "html": "<button class=\"ds-btn-primary\" type=\"button\">繼續學習 <svg aria-hidden=\"true\" width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M5 12h14\"/><path d=\"m13 6 6 6-6 6\"/></svg></button>",
+      "css": ".ds-btn-primary { display: inline-flex; align-items: center; justify-content: center; gap: 18px; min-height: 46px; padding: 15px 18px 13px 20px; color: #281008; background: #ff692f; border: 1px solid #de4616; border-bottom: 4px solid #9f2d0a; border-radius: 7px; font: 720 1rem/1.2 'Figtree Variable', 'Noto Sans TC Variable', sans-serif; box-shadow: inset 0 1px 0 rgb(255 255 255 / 32%); cursor: pointer; transition: transform .12s ease, background-color .12s ease; } .ds-btn-primary:hover { background: #ff7b47; transform: translateY(-1px); } .ds-btn-primary:focus-visible { outline: 3px solid #ff713f; outline-offset: 3px; } .ds-btn-primary:active { transform: translateY(2px); border-bottom-width: 2px; }"
+    },
+    {
+      "name": "Secondary Bone Key",
+      "kind": "button",
+      "refersTo": "button-secondary",
+      "description": "不與主操作競爭的骨白次要鍵。",
+      "html": "<button class=\"ds-btn-secondary\" type=\"button\">查看參考答案</button>",
+      "css": ".ds-btn-secondary { display: inline-flex; align-items: center; justify-content: center; min-height: 42px; padding: 0 15px; color: #1c1e1f; background: #f4f2eb; border: 1px solid #8c8c86; border-bottom: 3px solid #686966; border-radius: 6px; font: 700 1rem/1.2 'Figtree Variable', 'Noto Sans TC Variable', sans-serif; box-shadow: inset 0 1px 0 #fff; cursor: pointer; transition: transform .12s ease, background-color .12s ease; } .ds-btn-secondary:hover { color: #1c1e1f; background: #fff; transform: translateY(-1px); } .ds-btn-secondary:focus-visible { outline: 3px solid #ff713f; outline-offset: 3px; } .ds-btn-secondary:active { transform: translateY(1px); border-bottom-width: 2px; }"
+    },
+    {
+      "name": "Hardware Navigation Key",
+      "kind": "nav",
+      "refersTo": "navigation-key",
+      "description": "gunmetal 機架內的預設與 active 導覽鍵。",
+      "html": "<nav class=\"ds-nav\" aria-label=\"主要功能\"><button class=\"ds-nav-key ds-is-active\" type=\"button\"><svg aria-hidden=\"true\" width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"><path d=\"M12 2v2\"/><path d=\"M12 20v2\"/><path d=\"m4.93 4.93 1.41 1.41\"/><path d=\"m17.66 17.66 1.41 1.41\"/><path d=\"M2 12h2\"/><path d=\"M20 12h2\"/><circle cx=\"12\" cy=\"12\" r=\"4\"/></svg>學習總站</button><button class=\"ds-nav-key\" type=\"button\">名詞百科</button></nav>",
+      "css": ".ds-nav { display: grid; gap: 7px; width: 224px; padding: 14px; background: #1b1e20; } .ds-nav-key { display: flex; align-items: center; gap: 11px; min-height: 44px; padding: 10px 12px; color: #afb3ae; background: #232729; border: 1px solid #34383a; border-radius: 7px; font: 650 1rem/1.2 'Figtree Variable', 'Noto Sans TC Variable', sans-serif; box-shadow: 0 2px 0 #101213, inset 0 1px 0 #414648; cursor: pointer; transition: transform .12s ease, background-color .12s ease; } .ds-nav-key:hover { color: #fff; background: #292e30; transform: translateY(-1px); } .ds-nav-key:focus-visible { outline: 3px solid #ff713f; outline-offset: 3px; } .ds-nav-key.ds-is-active { color: #16191a; background: #f0eee7; border-color: #f0eee7; box-shadow: 0 3px 0 #8f8d86; } .ds-nav-key.ds-is-active svg { color: #e94b16; }"
+    },
+    {
+      "name": "Amber Status Display",
+      "kind": "custom",
+      "refersTo": "status-display",
+      "description": "課程版本與查證狀態的內嵌遙測窗。",
+      "html": "<div class=\"ds-status-display\" role=\"status\"><span>COURSE 0.1.0</span><strong>核心概念已查證</strong><small>2026-08-24</small></div>",
+      "css": ".ds-status-display { display: grid; gap: 4px; width: 196px; padding: 13px 15px; color: #e7a923; background: #1c2022; border: 1px solid #2e3234; border-radius: 6px; font: 650 .72rem/1.35 'JetBrains Mono Variable', monospace; text-transform: uppercase; box-shadow: inset 0 0 0 3px #252a2c, 0 3px 0 #99978f; } .ds-status-display strong { color: #f3c25b; } .ds-status-display small { color: #858b87; } .ds-status-display:focus-within { outline: 3px solid #ff713f; outline-offset: 3px; }"
+    },
+    {
+      "name": "Current Station Slab",
+      "kind": "card",
+      "refersTo": "hardware-card",
+      "description": "目前課程的骨白硬體卡、軌道與狀態燈。",
+      "html": "<article class=\"ds-station-card\"><div class=\"ds-station-rail\" aria-hidden=\"true\"><span></span><span class=\"ds-is-current\"></span><span></span></div><div><span class=\"ds-signal\">目前站點 · LESSON 01</span><h3>LLM 是什麼</h3><p>理解 LLM 能做什麼、不能做什麼，以及為什麼流暢不等於正確。</p></div></article>",
+      "css": ".ds-station-card { display: grid; grid-template-columns: 62px 1fr; gap: 24px; max-width: 720px; padding: 30px 32px 30px 20px; color: #1c1e1f; background: #f5f2e9; border: 1px solid #c4c0b5; border-bottom: 5px solid #8f8c84; border-radius: 10px; box-shadow: 0 1px 0 #fff inset, 0 14px 26px -20px #2a2b29; } .ds-station-card h3 { margin: 7px 0 10px; font: 760 2rem/1.08 'Figtree Variable', 'Noto Sans TC Variable', sans-serif; letter-spacing: -.035em; } .ds-station-card p { margin: 0; color: #66675f; line-height: 1.65; } .ds-station-rail { position: relative; display: grid; place-items: center; min-height: 130px; background: #dfddd5; border: 1px solid #c9c5ba; border-radius: 7px; box-shadow: inset 0 2px 4px rgb(50 50 48 / 13%); } .ds-station-rail::before { content: ''; position: absolute; top: 0; bottom: 0; width: 2px; background: #777a75; } .ds-station-rail span { z-index: 1; width: 15px; height: 15px; background: #d4d1c8; border: 3px solid #6c706c; border-radius: 999px; } .ds-station-rail .ds-is-current { background: #ff692f; border-color: #fff1e9; box-shadow: 0 0 0 4px rgb(255 105 47 / 20%); } .ds-signal { color: #c43c11; font: 700 .72rem/1 'JetBrains Mono Variable', monospace; letter-spacing: .11em; text-transform: uppercase; }"
+    },
+    {
+      "name": "Search Field",
+      "kind": "input",
+      "refersTo": "search-field",
+      "description": "名詞百科使用的骨白下壓式搜尋欄。",
+      "html": "<label class=\"ds-search\"><svg aria-hidden=\"true\" width=\"19\" height=\"19\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"><circle cx=\"11\" cy=\"11\" r=\"8\"/><path d=\"m21 21-4.3-4.3\"/></svg><input type=\"search\" placeholder=\"搜尋 Agent、工作流、記憶……\"/><span>16 個名詞</span></label>",
+      "css": ".ds-search { display: grid; grid-template-columns: auto minmax(0, 1fr) auto; gap: 12px; align-items: center; max-width: 640px; padding: 13px 16px; color: #1c1e1f; background: #f8f7f2; border: 1px solid #c3c0b7; border-bottom: 4px solid #8f8d86; border-radius: 8px; } .ds-search input { min-width: 0; padding: 5px 0; color: #1c1e1f; background: transparent; border: 0; outline: 0; font: 400 1.05rem/1.4 'Figtree Variable', 'Noto Sans TC Variable', sans-serif; } .ds-search span { color: #666862; font: 700 .72rem/1 'JetBrains Mono Variable', monospace; } .ds-search:focus-within { outline: 3px solid #ff713f; outline-offset: 3px; }"
+    },
+    {
+      "name": "Quiz Answer Option",
+      "kind": "custom",
+      "refersTo": "quiz-option",
+      "description": "具按鍵深度、字母鍵帽與可見選取狀態的答案列。",
+      "html": "<label class=\"ds-answer\"><input type=\"radio\" name=\"preview-answer\"/><span class=\"ds-option-key\">A</span><span>一種能依指令產生文字的模型</span></label>",
+      "css": ".ds-answer { display: grid; grid-template-columns: auto 30px 1fr; gap: 10px; align-items: center; min-height: 50px; padding: 8px 13px; color: #1c1e1f; background: #f8f6f0; border: 1px solid #c9c6bd; border-bottom: 3px solid #aaa79f; border-radius: 7px; font: 400 1rem/1.4 'Figtree Variable', 'Noto Sans TC Variable', sans-serif; cursor: pointer; transition: background-color .12s ease, border-color .12s ease; } .ds-answer:hover, .ds-answer:has(input:checked) { background: #fff0e8; border-color: #ff692f; } .ds-answer:focus-within { outline: 3px solid #ff713f; outline-offset: 3px; } .ds-answer input { width: 17px; height: 17px; accent-color: #ff5a1f; } .ds-option-key { display: grid; place-items: center; width: 28px; height: 28px; background: #dfddd5; border: 1px solid #c7c4bb; border-radius: 5px; font: 700 .72rem/1 'JetBrains Mono Variable', monospace; }"
+    },
+    {
+      "name": "Progress Gauge",
+      "kind": "custom",
+      "refersTo": "progress-gauge",
+      "description": "以等寬讀值、內嵌槽與課程刻度呈現學習進度。",
+      "html": "<div class=\"ds-gauge\"><div class=\"ds-gauge-readout\"><strong>40%</strong><span>6 / 16 課</span></div><div class=\"ds-gauge-track\" role=\"progressbar\" aria-valuemin=\"0\" aria-valuemax=\"100\" aria-valuenow=\"40\"><span style=\"width:40%\"></span></div><div class=\"ds-gauge-ticks\" aria-hidden=\"true\"><span>0</span><span>4</span><span>8</span><span>12</span><span>16</span></div></div>",
+      "css": ".ds-gauge { max-width: 520px; color: #1c1e1f; font-family: 'JetBrains Mono Variable', monospace; } .ds-gauge-readout { display: flex; align-items: baseline; justify-content: space-between; margin-bottom: 10px; } .ds-gauge-readout strong { font-size: 2.2rem; line-height: 1; letter-spacing: -.05em; } .ds-gauge-readout span { color: #666862; font-size: .78rem; } .ds-gauge-track { height: 10px; overflow: hidden; background: #dad8d1; border-radius: 3px; box-shadow: inset 0 1px 2px #b4b2ab; } .ds-gauge-track span { display: block; height: 100%; background: #ff692f; } .ds-gauge-ticks { display: flex; justify-content: space-between; margin-top: 8px; color: #777973; font-size: .68rem; line-height: 1; } .ds-gauge:focus-within { outline: 3px solid #ff713f; outline-offset: 3px; }"
+    }
+  ],
+  "narrative": {
+    "northStar": "Creator Hardware Console",
+    "overview": "Agent Path 不是一般的企業訓練後台，而是一台可逐鍵掌握的創作者控制器。骨白與 putty 鍵帽承載長時間閱讀，gunmetal 機身收納導覽與固定控制，琥珀狀態窗顯示版本與驗證訊號；每個學習狀態都要像硬體回饋一樣清楚、可信、可操作。\n\n視覺密度接近工作台：有明確軌道、刻度、讀值與實體邊界，但不追求裝飾性機械細節。介面以一個 safety-orange 主操作鍵建立當下承諾，其餘操作退回骨白或深色控制鍵；不使用漸層，動態只用來確認狀態、揭示層級或模擬按鍵深度。",
+    "keyCharacteristics": [
+      "骨白／putty 閱讀表面與 gunmetal 固定機架形成清楚的工作區分層。",
+      "safety-orange 只保留給每個畫面的單一主要承諾動作，小面積刻度與狀態訊號可沿用同一色相。",
+      "琥珀色只代表狀態窗、提示與待注意資訊，不與主要行動競爭。",
+      "底緣、內嵌高光、軌道與刻度提供可感知的實體回饋；沒有純裝飾陰影。",
+      "中文長文保持舒適，英文座標、版本、課次與數值使用等寬遙測語言。"
+    ],
+    "rules": [
+      { "name": "The One Orange Key Rule", "body": "每個畫面只能有一個實心 safety-orange 主要操作鍵；其他橘色只能作為小面積刻度、軌道或非互動訊號。", "section": "colors" },
+      { "name": "The Signal, Not Decoration Rule", "body": "橘、琥珀、綠、紅都必須對應行動或狀態，不可把高彩度色當作無意義裝飾。", "section": "colors" },
+      { "name": "The Telemetry Rule", "body": "只有座標、版本、課次、狀態與數值使用 JetBrains Mono；長篇中文、按鈕與教學敘述維持比例字體。", "section": "typography" },
+      { "name": "The Rack-to-Drawer Rule", "body": "桌機導覽固定成機架，手機導覽必須成為可關閉的抽屜；不可把 276px 側欄硬縮進窄螢幕。", "section": "layout" },
+      { "name": "The Structural Depth Rule", "body": "陰影必須說明零件的層級、按壓方向或機身接縫；若移除陰影不影響結構理解，就不應加入。", "section": "elevation" },
+      { "name": "The Pressable Geometry Rule", "body": "可按元件必須以底緣、位移或狀態面提供可感知回饋；靜態容器不得假裝成可按鍵帽。", "section": "shapes" }
+    ],
+    "dos": [
+      "Do 讓每個畫面只有一個實心 safety-orange 主操作鍵，其他操作使用骨白或 gunmetal 次要鍵。",
+      "Do 以底緣厚度、1–2px 位移、狀態燈與明確文字提供按壓和完成回饋。",
+      "Do 使用 Noto Sans TC Variable／Figtree 支撐中文閱讀，JetBrains Mono 只處理課次、版本、座標與數值。",
+      "Do 在 780px 以下改用抽屜導覽，在 1080px 以下把 Lesson 控制面板併入內容流。",
+      "Do 保留 3px focus-visible 外框、文字加圖示的狀態表達與 reduced-motion 支援。"
+    ],
+    "donts": [
+      "Don't 使用漸層、玻璃擬態、霓虹泛光或沒有結構理由的柔霧陰影。",
+      "Don't 同時放置多個實心橘色 CTA，或讓琥珀提示看起來比主要行動更強。",
+      "Don't 把所有容器做成膠囊、過度圓角卡片或沒有底緣深度的平面按鈕。",
+      "Don't 只靠顏色傳達答對、答錯、鎖定或完成；必須同時提供文字、圖示或形狀。",
+      "Don't 在手機保留固定寬側欄、縮小桌面雙欄，或造成水平捲動。"
+    ]
+  }
+}

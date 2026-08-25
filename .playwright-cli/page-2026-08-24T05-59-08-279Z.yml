@@ -1,0 +1,580 @@
+- generic [ref=f1e3]:
+  - link "跳到主要內容" [ref=f1e4] [cursor=pointer]:
+    - /url: "#main-content"
+  - banner [ref=f1e588]:
+    - button "開啟課程導覽" [ref=f1e589] [cursor=pointer]
+    - strong [ref=f1e591]: Agent Path
+    - generic [ref=f1e592]: MVP V1
+  - complementary "課程導覽" [ref=f1e5]:
+    - generic [ref=f1e6]:
+      - generic [ref=f1e11]:
+        - strong [ref=f1e12]: Agent Path
+        - generic [ref=f1e13]: AI Agent 自學系統
+      - button "關閉導覽" [ref=f1e14] [cursor=pointer]
+    - navigation "主要功能" [ref=f1e18]:
+      - button "學習總站" [ref=f1e19] [cursor=pointer]
+      - button "名詞百科" [active] [ref=f1e23] [cursor=pointer]
+      - button "Debug Lab" [ref=f1e26] [cursor=pointer]
+    - generic [ref=f1e36]:
+      - generic [ref=f1e37]: 課程路線
+      - generic [ref=f1e38]: 1/16
+    - generic [ref=f1e39]:
+      - generic [ref=f1e40]:
+        - button "Phase 1 AI 基礎" [expanded] [ref=f1e41] [cursor=pointer]:
+          - generic [ref=f1e43]:
+            - generic [ref=f1e44]: Phase 1
+            - text: AI 基礎
+        - generic [ref=f1e47]:
+          - button "Lesson 01 LLM 是什麼" [ref=f1e48] [cursor=pointer]:
+            - generic [ref=f1e52]:
+              - generic [ref=f1e53]: Lesson 01
+              - text: LLM 是什麼
+          - button "Lesson 02 Prompt 是什麼" [ref=f1e54] [cursor=pointer]:
+            - generic [ref=f1e56]:
+              - generic [ref=f1e57]: Lesson 02
+              - text: Prompt 是什麼
+          - button "Lesson 03 Agent 是什麼" [ref=f1e58] [cursor=pointer]:
+            - generic [ref=f1e60]:
+              - generic [ref=f1e61]: Lesson 03
+              - text: Agent 是什麼
+          - button "Lesson 04 Tool 是什麼" [ref=f1e62] [cursor=pointer]:
+            - generic [ref=f1e64]:
+              - generic [ref=f1e65]: Lesson 04
+              - text: Tool 是什麼
+          - button "Lesson 05 Workflow 是什麼" [ref=f1e66] [cursor=pointer]:
+            - generic [ref=f1e68]:
+              - generic [ref=f1e69]: Lesson 05
+              - text: Workflow 是什麼
+          - button "Lesson 06 Agent vs Workflow" [ref=f1e70] [cursor=pointer]:
+            - generic [ref=f1e72]:
+              - generic [ref=f1e73]: Lesson 06
+              - text: Agent vs Workflow
+          - button "Lesson 07 Skill 是什麼" [ref=f1e74] [cursor=pointer]:
+            - generic [ref=f1e76]:
+              - generic [ref=f1e77]: Lesson 07
+              - text: Skill 是什麼
+          - button "Lesson 08 Plugin 是什麼" [ref=f1e78] [cursor=pointer]:
+            - generic [ref=f1e80]:
+              - generic [ref=f1e81]: Lesson 08
+              - text: Plugin 是什麼
+          - button "Lesson 09 Memory 是什麼" [ref=f1e82] [cursor=pointer]:
+            - generic [ref=f1e84]:
+              - generic [ref=f1e85]: Lesson 09
+              - text: Memory 是什麼
+          - button "Lesson 10 Knowledge Base 是什麼" [ref=f1e86] [cursor=pointer]:
+            - generic [ref=f1e88]:
+              - generic [ref=f1e89]: Lesson 10
+              - text: Knowledge Base 是什麼
+      - generic [ref=f1e90]:
+        - button "Phase 2 Coze" [expanded] [ref=f1e91] [cursor=pointer]:
+          - generic [ref=f1e93]:
+            - generic [ref=f1e94]: Phase 2
+            - text: Coze
+        - generic [ref=f1e97]:
+          - button "Lesson 11 Coze 是什麼" [ref=f1e98] [cursor=pointer]:
+            - generic [ref=f1e100]:
+              - generic [ref=f1e101]: Lesson 11
+              - text: Coze 是什麼
+          - button "Lesson 12 建立第一個 Agent" [ref=f1e102] [cursor=pointer]:
+            - generic [ref=f1e104]:
+              - generic [ref=f1e105]: Lesson 12
+              - text: 建立第一個 Agent
+          - button "Lesson 13 建立第一個 Workflow" [ref=f1e106] [cursor=pointer]:
+            - generic [ref=f1e108]:
+              - generic [ref=f1e109]: Lesson 13
+              - text: 建立第一個 Workflow
+          - button "Lesson 14 Start Node" [ref=f1e110] [cursor=pointer]:
+            - generic [ref=f1e112]:
+              - generic [ref=f1e113]: Lesson 14
+              - text: Start Node
+          - button "Lesson 15 LLM Node" [ref=f1e114] [cursor=pointer]:
+            - generic [ref=f1e116]:
+              - generic [ref=f1e117]: Lesson 15
+              - text: LLM Node
+          - button "Lesson 16 End Node 與完整測試" [ref=f1e118] [cursor=pointer]:
+            - generic [ref=f1e120]:
+              - generic [ref=f1e121]: Lesson 16
+              - text: End Node 與完整測試
+      - button "Phase 3 Workflow" [ref=f1e123]:
+        - generic [ref=f1e125]:
+          - generic [ref=f1e126]: Phase 3
+          - text: Workflow
+      - button "Phase 4 API" [ref=f1e132]:
+        - generic [ref=f1e134]:
+          - generic [ref=f1e135]: Phase 4
+          - text: API
+      - button "Phase 5 n8n" [ref=f1e141]:
+        - generic [ref=f1e143]:
+          - generic [ref=f1e144]: Phase 5
+          - text: n8n
+      - button "Phase 6 Dify" [ref=f1e150]:
+        - generic [ref=f1e152]:
+          - generic [ref=f1e153]: Phase 6
+          - text: Dify
+      - button "Phase 7 MCP" [ref=f1e159]:
+        - generic [ref=f1e161]:
+          - generic [ref=f1e162]: Phase 7
+          - text: MCP
+      - button "Phase 8 Python" [ref=f1e168]:
+        - generic [ref=f1e170]:
+          - generic [ref=f1e171]: Phase 8
+          - text: Python
+      - button "Phase 9 LangGraph" [ref=f1e177]:
+        - generic [ref=f1e179]:
+          - generic [ref=f1e180]: Phase 9
+          - text: LangGraph
+      - button "Phase 10 多智能體" [ref=f1e186]:
+        - generic [ref=f1e188]:
+          - generic [ref=f1e189]: Phase 10
+          - text: 多智能體
+    - generic [ref=f1e194]: Course 0.1.0更新：2026-08-24
+  - main [ref=f1e594]:
+    - generic [ref=f1e596]:
+      - heading "名詞百科" [level=1] [ref=f1e597]
+      - paragraph [ref=f1e598]: 不是背英文。先用白話理解，再把它放回真正的系統場景。
+    - generic [ref=f1e602]:
+      - generic [ref=f1e606]: 搜尋名詞
+      - textbox "搜尋名詞 20 個名詞" [ref=f1e607]:
+        - /placeholder: 搜尋 Agent、工作流、記憶……
+      - generic [ref=f1e608]: 20 個名詞
+    - generic [ref=f1e609]:
+      - article [ref=f1e610]:
+        - generic [ref=f1e611]:
+          - heading "LLM" [level=2] [ref=f1e612]
+          - strong [ref=f1e613]: 大型語言模型
+        - paragraph [ref=f1e614]: 讀過大量文字後，根據上下文預測下一段文字的系統。
+        - generic [ref=f1e615]:
+          - generic [ref=f1e616]:
+            - term [ref=f1e617]: 正式定義
+            - definition [ref=f1e618]: 以大量文字資料訓練、依輸入產生文字序列的機器學習模型。
+          - generic [ref=f1e619]:
+            - term [ref=f1e620]: 為什麼需要
+            - definition [ref=f1e621]: 它是許多聊天機器人與 Agent 的語言能力來源。
+          - generic [ref=f1e622]:
+            - term [ref=f1e623]: 例子
+            - definition [ref=f1e624]: 把一段會議紀錄整理成三個重點。
+          - generic [ref=f1e625]:
+            - term [ref=f1e626]: 常見錯誤
+            - definition [ref=f1e627]: LLM 不是資料庫，也不保證記得的是最新事實。
+          - generic [ref=f1e628]:
+            - term [ref=f1e629]: 相關名詞
+            - definition [ref=f1e630]: Prompt、Agent、Tool
+        - button "回到出現這個名詞的課程" [ref=f1e631] [cursor=pointer]
+      - article [ref=f1e634]:
+        - generic [ref=f1e635]:
+          - heading "Prompt" [level=2] [ref=f1e636]
+          - strong [ref=f1e637]: 提示詞
+        - paragraph [ref=f1e638]: 你交給 AI 的任務說明。
+        - generic [ref=f1e639]:
+          - generic [ref=f1e640]:
+            - term [ref=f1e641]: 正式定義
+            - definition [ref=f1e642]: 用來引導模型行為與輸出內容的輸入指令及上下文。
+          - generic [ref=f1e643]:
+            - term [ref=f1e644]: 為什麼需要
+            - definition [ref=f1e645]: 說清楚目標和邊界，才能得到更可用的結果。
+          - generic [ref=f1e646]:
+            - term [ref=f1e647]: 例子
+            - definition [ref=f1e648]: 把這封詢價信整理成產品、數量、交期三欄；缺少就寫待確認。
+          - generic [ref=f1e649]:
+            - term [ref=f1e650]: 常見錯誤
+            - definition [ref=f1e651]: Prompt 不是咒語，也不能保證模型知道你沒有提供的事實。
+          - generic [ref=f1e652]:
+            - term [ref=f1e653]: 相關名詞
+            - definition [ref=f1e654]: System Prompt、User Prompt、LLM
+        - button "回到出現這個名詞的課程" [ref=f1e655] [cursor=pointer]
+      - article [ref=f1e658]:
+        - generic [ref=f1e659]:
+          - heading "Agent" [level=2] [ref=f1e660]
+          - strong [ref=f1e661]: 智能體
+        - paragraph [ref=f1e662]: 能根據目標與目前情況，決定下一步行動的 AI 系統。
+        - generic [ref=f1e663]:
+          - generic [ref=f1e664]:
+            - term [ref=f1e665]: 正式定義
+            - definition [ref=f1e666]: 以模型作為決策元件，能觀察狀態、選擇行動、呼叫工具並迭代的系統。
+          - generic [ref=f1e667]:
+            - term [ref=f1e668]: 為什麼需要
+            - definition [ref=f1e669]: 當任務步驟不能完全事先固定時，需要依結果調整。
+          - generic [ref=f1e670]:
+            - term [ref=f1e671]: 例子
+            - definition [ref=f1e672]: 研究助理先找資料，發現來源不足後再換查詢方向。
+          - generic [ref=f1e673]:
+            - term [ref=f1e674]: 常見錯誤
+            - definition [ref=f1e675]: Agent 不是完全自由；它仍需要權限、停止條件與人工邊界。
+          - generic [ref=f1e676]:
+            - term [ref=f1e677]: 相關名詞
+            - definition [ref=f1e678]: Workflow、Tool、Memory
+        - button "回到出現這個名詞的課程" [ref=f1e679] [cursor=pointer]
+      - article [ref=f1e682]:
+        - generic [ref=f1e683]:
+          - heading "Tool" [level=2] [ref=f1e684]
+          - strong [ref=f1e685]: 工具
+        - paragraph [ref=f1e686]: AI 可以呼叫的一項外部能力。
+        - generic [ref=f1e687]:
+          - generic [ref=f1e688]:
+            - term [ref=f1e689]: 正式定義
+            - definition [ref=f1e690]: 以明確輸入、輸出和權限暴露給 Agent 或 Workflow 的可執行功能。
+          - generic [ref=f1e691]:
+            - term [ref=f1e692]: 為什麼需要
+            - definition [ref=f1e693]: 模型本身不能可靠存取即時網站、資料庫或檔案。
+          - generic [ref=f1e694]:
+            - term [ref=f1e695]: 例子
+            - definition [ref=f1e696]: 查天氣、讀取產品 CSV、建立草稿。
+          - generic [ref=f1e697]:
+            - term [ref=f1e698]: 常見錯誤
+            - definition [ref=f1e699]: 「可以呼叫寄信 Tool」不等於應該允許自動寄出。
+          - generic [ref=f1e700]:
+            - term [ref=f1e701]: 相關名詞
+            - definition [ref=f1e702]: Agent、Plugin、MCP
+        - button "回到出現這個名詞的課程" [ref=f1e703] [cursor=pointer]
+      - article [ref=f1e706]:
+        - generic [ref=f1e707]:
+          - heading "Workflow" [level=2] [ref=f1e708]
+          - strong [ref=f1e709]: 工作流
+        - paragraph [ref=f1e710]: 按照預先設計的步驟處理工作的流程。
+        - generic [ref=f1e711]:
+          - generic [ref=f1e712]:
+            - term [ref=f1e713]: 正式定義
+            - definition [ref=f1e714]: 由節點與連線組成、按規則傳遞資料並執行任務的可重現流程。
+          - generic [ref=f1e715]:
+            - term [ref=f1e716]: 為什麼需要
+            - definition [ref=f1e717]: 固定、重複、需要追蹤的工作適合用 Workflow。
+          - generic [ref=f1e718]:
+            - term [ref=f1e719]: 例子
+            - definition [ref=f1e720]: 每天抓資料 → 摘要 → 寫入表格 → 寄出。
+          - generic [ref=f1e721]:
+            - term [ref=f1e722]: 常見錯誤
+            - definition [ref=f1e723]: Workflow 可以包含 AI 節點，但不代表整條流程都是 Agent。
+          - generic [ref=f1e724]:
+            - term [ref=f1e725]: 相關名詞
+            - definition [ref=f1e726]: Node、Edge、Agent
+        - button "回到出現這個名詞的課程" [ref=f1e727] [cursor=pointer]
+      - article [ref=f1e730]:
+        - generic [ref=f1e731]:
+          - heading "Hybrid" [level=2] [ref=f1e732]
+          - strong [ref=f1e733]: 混合式設計
+        - paragraph [ref=f1e734]: 固定主流程裡，只在需要判斷的地方使用 Agent。
+        - generic [ref=f1e735]:
+          - generic [ref=f1e736]:
+            - term [ref=f1e737]: 正式定義
+            - definition [ref=f1e738]: 以 Workflow 約束流程，並在特定節點引入模型或 Agent 決策的架構。
+          - generic [ref=f1e739]:
+            - term [ref=f1e740]: 為什麼需要
+            - definition [ref=f1e741]: 同時保留可控性與彈性。
+          - generic [ref=f1e742]:
+            - term [ref=f1e743]: 例子
+            - definition [ref=f1e744]: 固定收件與批准，中間由 Agent 判斷產品類型。
+          - generic [ref=f1e745]:
+            - term [ref=f1e746]: 常見錯誤
+            - definition [ref=f1e747]: 混合式不是把所有技術都放進去，而是各自放在最適合的位置。
+          - generic [ref=f1e748]:
+            - term [ref=f1e749]: 相關名詞
+            - definition [ref=f1e750]: Agent、Workflow、Human Approval
+        - button "回到出現這個名詞的課程" [ref=f1e751] [cursor=pointer]
+      - article [ref=f1e754]:
+        - generic [ref=f1e755]:
+          - heading "Skill" [level=2] [ref=f1e756]
+          - strong [ref=f1e757]: 技能
+        - paragraph [ref=f1e758]: 教 AI 用一致方法完成某一類任務的能力包。
+        - generic [ref=f1e759]:
+          - generic [ref=f1e760]:
+            - term [ref=f1e761]: 正式定義
+            - definition [ref=f1e762]: 封裝任務指引、流程、範例或可呼叫資源的可重用能力單元；實作依平台而異。
+          - generic [ref=f1e763]:
+            - term [ref=f1e764]: 為什麼需要
+            - definition [ref=f1e765]: 避免每次從零描述同一套做法。
+          - generic [ref=f1e766]:
+            - term [ref=f1e767]: 例子
+            - definition [ref=f1e768]: 報價需求整理 Skill 規定欄位、缺漏標記與輸出格式。
+          - generic [ref=f1e769]:
+            - term [ref=f1e770]: 常見錯誤
+            - definition [ref=f1e771]: Skill 描述怎麼做；Tool 是實際執行外部動作的能力。
+          - generic [ref=f1e772]:
+            - term [ref=f1e773]: 相關名詞
+            - definition [ref=f1e774]: Tool、Plugin、Agent
+        - button "回到出現這個名詞的課程" [ref=f1e775] [cursor=pointer]
+      - article [ref=f1e778]:
+        - generic [ref=f1e779]:
+          - heading "Plugin" [level=2] [ref=f1e780]
+          - strong [ref=f1e781]: 外掛／插件
+        - paragraph [ref=f1e782]: 安裝到某個平台、用來增加功能的擴充元件。
+        - generic [ref=f1e783]:
+          - generic [ref=f1e784]:
+            - term [ref=f1e785]: 正式定義
+            - definition [ref=f1e786]: 依附特定主程式或平台介面，提供額外功能、整合或工具的軟體模組。
+          - generic [ref=f1e787]:
+            - term [ref=f1e788]: 為什麼需要
+            - definition [ref=f1e789]: 讓平台能連接原本沒有的服務或能力。
+          - generic [ref=f1e790]:
+            - term [ref=f1e791]: 例子
+            - definition [ref=f1e792]: 在自動化平台加入某個 CRM 的節點。
+          - generic [ref=f1e793]:
+            - term [ref=f1e794]: 常見錯誤
+            - definition [ref=f1e795]: Plugin 高度依賴平台，不能假設跨產品可直接使用。
+          - generic [ref=f1e796]:
+            - term [ref=f1e797]: 相關名詞
+            - definition [ref=f1e798]: Tool、平台整合、權限
+        - button "回到出現這個名詞的課程" [ref=f1e799] [cursor=pointer]
+      - article [ref=f1e802]:
+        - generic [ref=f1e803]:
+          - heading "Memory" [level=2] [ref=f1e804]
+          - strong [ref=f1e805]: 記憶
+        - paragraph [ref=f1e806]: 讓系統在後續步驟記得先前重要資訊。
+        - generic [ref=f1e807]:
+          - generic [ref=f1e808]:
+            - term [ref=f1e809]: 正式定義
+            - definition [ref=f1e810]: 為後續推理或流程保存的對話、偏好、任務狀態或摘要。
+          - generic [ref=f1e811]:
+            - term [ref=f1e812]: 為什麼需要
+            - definition [ref=f1e813]: 沒有 Memory，系統可能每一步都重新開始。
+          - generic [ref=f1e814]:
+            - term [ref=f1e815]: 例子
+            - definition [ref=f1e816]: 記住目前研究問題、已查來源與使用者偏好。
+          - generic [ref=f1e817]:
+            - term [ref=f1e818]: 常見錯誤
+            - definition [ref=f1e819]: Memory 是過去記錄，不等於經官方驗證的知識。
+          - generic [ref=f1e820]:
+            - term [ref=f1e821]: 相關名詞
+            - definition [ref=f1e822]: State、Knowledge Base、Context
+        - button "回到出現這個名詞的課程" [ref=f1e823] [cursor=pointer]
+      - article [ref=f1e826]:
+        - generic [ref=f1e827]:
+          - heading "Knowledge Base" [level=2] [ref=f1e828]
+          - strong [ref=f1e829]: 知識庫
+        - paragraph [ref=f1e830]: 整理並提供給系統查找的可信資料集合。
+        - generic [ref=f1e831]:
+          - generic [ref=f1e832]:
+            - term [ref=f1e833]: 正式定義
+            - definition [ref=f1e834]: 經收集、整理、索引並可供檢索的文件或結構化知識來源。
+          - generic [ref=f1e835]:
+            - term [ref=f1e836]: 為什麼需要
+            - definition [ref=f1e837]: 讓回答能依組織自己的文件，而不是只靠模型記憶。
+          - generic [ref=f1e838]:
+            - term [ref=f1e839]: 例子
+            - definition [ref=f1e840]: 產品手冊、FAQ、流程規範與版本記錄。
+          - generic [ref=f1e841]:
+            - term [ref=f1e842]: 常見錯誤
+            - definition [ref=f1e843]: 放進知識庫不會自動讓錯誤文件變正確。
+          - generic [ref=f1e844]:
+            - term [ref=f1e845]: 相關名詞
+            - definition [ref=f1e846]: RAG、Retrieval、Memory
+        - button "回到出現這個名詞的課程" [ref=f1e847] [cursor=pointer]
+      - article [ref=f1e850]:
+        - generic [ref=f1e851]:
+          - heading "Coze" [level=2] [ref=f1e852]
+          - strong [ref=f1e853]: 扣子／Coze 平台
+        - paragraph [ref=f1e854]: 用視覺方式建立 AI 應用、Agent 與 Workflow 的平台。
+        - generic [ref=f1e855]:
+          - generic [ref=f1e856]:
+            - term [ref=f1e857]: 正式定義
+            - definition [ref=f1e858]: 提供模型、Prompt、Workflow、Plugin 等組件來組合 AI 應用的開發平台；可用功能依產品地區與版本而異。
+          - generic [ref=f1e859]:
+            - term [ref=f1e860]: 為什麼需要
+            - definition [ref=f1e861]: 初學者能先看見輸入、節點與輸出之間的關係。
+          - generic [ref=f1e862]:
+            - term [ref=f1e863]: 例子
+            - definition [ref=f1e864]: 用 Start → LLM → End 建立商業分析助手。
+          - generic [ref=f1e865]:
+            - term [ref=f1e866]: 常見錯誤
+            - definition [ref=f1e867]: Coze 是建置平台，不等於所有 Agent 概念本身。
+          - generic [ref=f1e868]:
+            - term [ref=f1e869]: 相關名詞
+            - definition [ref=f1e870]: Agent、Workflow、Plugin
+        - button "回到出現這個名詞的課程" [ref=f1e871] [cursor=pointer]
+      - article [ref=f1e874]:
+        - generic [ref=f1e875]:
+          - heading "System Prompt" [level=2] [ref=f1e876]
+          - strong [ref=f1e877]: 系統提示詞
+        - paragraph [ref=f1e878]: 設定 Agent 長期角色、規則與邊界的指示。
+        - generic [ref=f1e879]:
+          - generic [ref=f1e880]:
+            - term [ref=f1e881]: 正式定義
+            - definition [ref=f1e882]: 位於對話規則層、用來規範模型行為和限制的指令。
+          - generic [ref=f1e883]:
+            - term [ref=f1e884]: 為什麼需要
+            - definition [ref=f1e885]: 讓多次輸入仍遵守同一角色與安全邊界。
+          - generic [ref=f1e886]:
+            - term [ref=f1e887]: 例子
+            - definition [ref=f1e888]: 只使用使用者提供資料；缺少就寫待確認。
+          - generic [ref=f1e889]:
+            - term [ref=f1e890]: 常見錯誤
+            - definition [ref=f1e891]: System Prompt 不能取代真正的工具權限控制。
+          - generic [ref=f1e892]:
+            - term [ref=f1e893]: 相關名詞
+            - definition [ref=f1e894]: User Prompt、Prompt
+        - button "回到出現這個名詞的課程" [ref=f1e895] [cursor=pointer]
+      - article [ref=f1e898]:
+        - generic [ref=f1e899]:
+          - heading "User Prompt" [level=2] [ref=f1e900]
+          - strong [ref=f1e901]: 使用者提示詞
+        - paragraph [ref=f1e902]: 這一次要 Agent 處理的具體問題或材料。
+        - generic [ref=f1e903]:
+          - generic [ref=f1e904]:
+            - term [ref=f1e905]: 正式定義
+            - definition [ref=f1e906]: 由使用者提供、描述當前任務與內容的訊息。
+          - generic [ref=f1e907]:
+            - term [ref=f1e908]: 為什麼需要
+            - definition [ref=f1e909]: 把長期規則與每次任務分開。
+          - generic [ref=f1e910]:
+            - term [ref=f1e911]: 例子
+            - definition [ref=f1e912]: 請分析這段公司簡介。
+          - generic [ref=f1e913]:
+            - term [ref=f1e914]: 常見錯誤
+            - definition [ref=f1e915]: 不要只記名詞，要回到它在系統中負責的工作。
+          - generic [ref=f1e916]:
+            - term [ref=f1e917]: 相關名詞
+            - definition [ref=f1e918]: System Prompt、Prompt
+        - button "回到出現這個名詞的課程" [ref=f1e919] [cursor=pointer]
+      - article [ref=f1e922]:
+        - generic [ref=f1e923]:
+          - heading "Node" [level=2] [ref=f1e924]
+          - strong [ref=f1e925]: 節點
+        - paragraph [ref=f1e926]: Workflow 裡負責一件工作的方塊。
+        - generic [ref=f1e927]:
+          - generic [ref=f1e928]:
+            - term [ref=f1e929]: 正式定義
+            - definition [ref=f1e930]: 接收輸入、執行特定處理並產生輸出的流程單元。
+          - generic [ref=f1e931]:
+            - term [ref=f1e932]: 為什麼需要
+            - definition [ref=f1e933]: 把複雜工作拆成可觀察與可除錯的小步驟。
+          - generic [ref=f1e934]:
+            - term [ref=f1e935]: 例子
+            - definition [ref=f1e936]: Start、LLM、End 各是一個節點。
+          - generic [ref=f1e937]:
+            - term [ref=f1e938]: 常見錯誤
+            - definition [ref=f1e939]: 節點不是裝飾；每個節點都要有清楚輸入與輸出。
+          - generic [ref=f1e940]:
+            - term [ref=f1e941]: 相關名詞
+            - definition [ref=f1e942]: Edge、Workflow
+        - button "回到出現這個名詞的課程" [ref=f1e943] [cursor=pointer]
+      - article [ref=f1e946]:
+        - generic [ref=f1e947]:
+          - heading "Edge" [level=2] [ref=f1e948]
+          - strong [ref=f1e949]: 連線／邊
+        - paragraph [ref=f1e950]: 把一個節點的結果送到下一個節點。
+        - generic [ref=f1e951]:
+          - generic [ref=f1e952]:
+            - term [ref=f1e953]: 正式定義
+            - definition [ref=f1e954]: 描述節點執行順序與資料傳遞關係的連接。
+          - generic [ref=f1e955]:
+            - term [ref=f1e956]: 為什麼需要
+            - definition [ref=f1e957]: 讓資料知道下一站去哪裡。
+          - generic [ref=f1e958]:
+            - term [ref=f1e959]: 例子
+            - definition [ref=f1e960]: Start 的 company_description 連到 LLM。
+          - generic [ref=f1e961]:
+            - term [ref=f1e962]: 常見錯誤
+            - definition [ref=f1e963]: 不要只記名詞，要回到它在系統中負責的工作。
+          - generic [ref=f1e964]:
+            - term [ref=f1e965]: 相關名詞
+            - definition [ref=f1e966]: Node、Workflow
+        - button "回到出現這個名詞的課程" [ref=f1e967] [cursor=pointer]
+      - article [ref=f1e970]:
+        - generic [ref=f1e971]:
+          - heading "Start Node" [level=2] [ref=f1e972]
+          - strong [ref=f1e973]: 開始節點
+        - paragraph [ref=f1e974]: Workflow 的入口，定義外面要交給流程哪些資料。
+        - generic [ref=f1e975]:
+          - generic [ref=f1e976]:
+            - term [ref=f1e977]: 正式定義
+            - definition [ref=f1e978]: 宣告工作流輸入欄位並啟動執行的起始節點。
+          - generic [ref=f1e979]:
+            - term [ref=f1e980]: 為什麼需要
+            - definition [ref=f1e981]: 輸入不清楚，後面每一個節點都可能拿錯資料。
+          - generic [ref=f1e982]:
+            - term [ref=f1e983]: 例子
+            - definition [ref=f1e984]: company_description：公司描述文字。
+          - generic [ref=f1e985]:
+            - term [ref=f1e986]: 常見錯誤
+            - definition [ref=f1e987]: Start 只定義入口，不負責分析內容。
+          - generic [ref=f1e988]:
+            - term [ref=f1e989]: 相關名詞
+            - definition [ref=f1e990]: Variable、Input、End Node
+        - button "回到出現這個名詞的課程" [ref=f1e991] [cursor=pointer]
+      - article [ref=f1e994]:
+        - generic [ref=f1e995]:
+          - heading "Variable" [level=2] [ref=f1e996]
+          - strong [ref=f1e997]: 變數
+        - paragraph [ref=f1e998]: 用一個名字暫時保存流程中的資料。
+        - generic [ref=f1e999]:
+          - generic [ref=f1e1000]:
+            - term [ref=f1e1001]: 正式定義
+            - definition [ref=f1e1002]: 在流程中以名稱參照的資料值，其型別和內容可在執行時改變。
+          - generic [ref=f1e1003]:
+            - term [ref=f1e1004]: 為什麼需要
+            - definition [ref=f1e1005]: 讓節點可以明確傳遞同一份資料。
+          - generic [ref=f1e1006]:
+            - term [ref=f1e1007]: 例子
+            - definition [ref=f1e1008]: company_description =「這是一家……」
+          - generic [ref=f1e1009]:
+            - term [ref=f1e1010]: 常見錯誤
+            - definition [ref=f1e1011]: 不要只記名詞，要回到它在系統中負責的工作。
+          - generic [ref=f1e1012]:
+            - term [ref=f1e1013]: 相關名詞
+            - definition [ref=f1e1014]: Input、Output、JSON
+        - button "回到出現這個名詞的課程" [ref=f1e1015] [cursor=pointer]
+      - article [ref=f1e1018]:
+        - generic [ref=f1e1019]:
+          - heading "LLM Node" [level=2] [ref=f1e1020]
+          - strong [ref=f1e1021]: 大型語言模型節點
+        - paragraph [ref=f1e1022]: Workflow 裡呼叫模型處理文字的一站。
+        - generic [ref=f1e1023]:
+          - generic [ref=f1e1024]:
+            - term [ref=f1e1025]: 正式定義
+            - definition [ref=f1e1026]: 接收上游變數、套用 Prompt 與模型設定並產生結果的節點。
+          - generic [ref=f1e1027]:
+            - term [ref=f1e1028]: 為什麼需要
+            - definition [ref=f1e1029]: 把需要理解或生成文字的工作放在明確步驟中。
+          - generic [ref=f1e1030]:
+            - term [ref=f1e1031]: 例子
+            - definition [ref=f1e1032]: 把 company_description 整理成三段分析。
+          - generic [ref=f1e1033]:
+            - term [ref=f1e1034]: 常見錯誤
+            - definition [ref=f1e1035]: LLM Node 不會自動知道 Start 裡的變數，必須正確引用或映射。
+          - generic [ref=f1e1036]:
+            - term [ref=f1e1037]: 相關名詞
+            - definition [ref=f1e1038]: Prompt、Variable、LLM
+        - button "回到出現這個名詞的課程" [ref=f1e1039] [cursor=pointer]
+      - article [ref=f1e1042]:
+        - generic [ref=f1e1043]:
+          - heading "End Node" [level=2] [ref=f1e1044]
+          - strong [ref=f1e1045]: 結束節點
+        - paragraph [ref=f1e1046]: Workflow 的出口，指定最後要交付哪些資料。
+        - generic [ref=f1e1047]:
+          - generic [ref=f1e1048]:
+            - term [ref=f1e1049]: 正式定義
+            - definition [ref=f1e1050]: 接收上游結果並定義工作流對外輸出欄位的終止節點。
+          - generic [ref=f1e1051]:
+            - term [ref=f1e1052]: 為什麼需要
+            - definition [ref=f1e1053]: 讓呼叫者拿到穩定、清楚、可使用的結果。
+          - generic [ref=f1e1054]:
+            - term [ref=f1e1055]: 例子
+            - definition [ref=f1e1056]: 輸出 analysis，而不是整份內部執行紀錄。
+          - generic [ref=f1e1057]:
+            - term [ref=f1e1058]: 常見錯誤
+            - definition [ref=f1e1059]: End 不負責修正 LLM 內容；它負責選擇與交付結果。
+          - generic [ref=f1e1060]:
+            - term [ref=f1e1061]: 相關名詞
+            - definition [ref=f1e1062]: Output、Run Log、Start Node
+        - button "回到出現這個名詞的課程" [ref=f1e1063] [cursor=pointer]
+      - article [ref=f1e1066]:
+        - generic [ref=f1e1067]:
+          - heading "Run Log" [level=2] [ref=f1e1068]
+          - strong [ref=f1e1069]: 執行紀錄
+        - paragraph [ref=f1e1070]: 每一次測試中，各節點收到與產生什麼的記錄。
+        - generic [ref=f1e1071]:
+          - generic [ref=f1e1072]:
+            - term [ref=f1e1073]: 正式定義
+            - definition [ref=f1e1074]: 工作流執行時的節點輸入、輸出、狀態與錯誤資訊。
+          - generic [ref=f1e1075]:
+            - term [ref=f1e1076]: 為什麼需要
+            - definition [ref=f1e1077]: 讓除錯回到證據，而不是猜測。
+          - generic [ref=f1e1078]:
+            - term [ref=f1e1079]: 例子
+            - definition [ref=f1e1080]: Start 有值，但 LLM Input 是空白。
+          - generic [ref=f1e1081]:
+            - term [ref=f1e1082]: 常見錯誤
+            - definition [ref=f1e1083]: 不要只記名詞，要回到它在系統中負責的工作。
+          - generic [ref=f1e1084]:
+            - term [ref=f1e1085]: 相關名詞
+            - definition [ref=f1e1086]: Debug、Input、Output
+        - button "回到出現這個名詞的課程" [ref=f1e1087] [cursor=pointer]
