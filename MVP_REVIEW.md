@@ -1,6 +1,6 @@
 # MVP V1 驗收報告
 
-驗收日期：2026-08-24  
+驗收日期：2026-08-25  
 版本：Course 0.1.0  
 結論：MVP V1 可在本機啟動並完成主要學習流程；Phase 3–10 尚未實作，只保留鎖定路線圖。
 
@@ -20,7 +20,7 @@
 
 - Phase 3–10 課程內容與實作。
 - 後端、帳號、多裝置同步、雲端資料庫、管理後台。
-- 正式部署、分析追蹤、課程內容 CMS。
+- 分析追蹤、課程內容 CMS。
 - Coze 雲端介面的逐按鈕自動驗收；介面與命名會改版，仍需在使用者目前登入版本確認。
 
 ## 2. Technical Review
@@ -32,7 +32,7 @@
 - Quiz 狀態隔離：Lesson 1 送出後切到 Lesson 2，沒有殘留選項或解析，送出按鈕維持停用。
 - Project 證據：Lesson 16 記錄後重新載入仍存在；Dashboard 顯示 `1/1`。
 - 來源對應：Lesson 1 與 Lesson 13 顯示不同且與課程主題相符的官方來源。
-- 響應式：390px 視窗 `scrollWidth === clientWidth`，沒有水平溢出。
+- 響應式：320／375／390／480／780／1080px 實際 Chromium 檢查；Lesson 內容在 1080px 以下均為單欄，320px 仍保有 300px 可讀內容寬度，且各尺寸沒有水平溢出。
 - 瀏覽器 console / page errors：0。
 - 字型：Figtree、JetBrains Mono 與 Noto Sans TC 均由套件自帶，不依賴遠端字型服務。
 
@@ -45,6 +45,7 @@
 5. 中文字型原先依賴系統 fallback：改為自帶 Noto Sans TC Variable。
 6. 進度站點缺少明確回饋：新增一次性站點確認動效，並支援 reduced motion。
 7. 第一版視覺過度接近藍色企業內訓後台：重構為 Creator Hardware Console，以骨白／putty 表面、石墨機身、琥珀狀態窗與單一安全橘主操作鍵建立一致產品語言；課程內容與互動邏輯不變。
+8. v2 CSS 無條件雙欄規則覆蓋舊版行動斷點：改為 1081px 以上才使用課程控制面板雙欄，1080px 以下固定單欄，並移除公開 HTML 的設計流程內部註解。
 
 ## 3. UX / Accessibility Review
 

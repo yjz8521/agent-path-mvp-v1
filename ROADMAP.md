@@ -21,7 +21,7 @@
 - [ ] 桌面側欄與手機導覽
 - [ ] 空白／載入／無資料狀態
 
-驗收：首頁可開啟、無 TypeScript error、手機 390px 不水平溢出。
+驗收：首頁可開啟、無 TypeScript error、手機 320／375／390px 的核心課程頁為可讀單欄且不水平溢出。
 
 ## Milestone 2｜Dashboard
 

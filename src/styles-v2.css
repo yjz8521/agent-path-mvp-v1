@@ -233,7 +233,9 @@ body {
 .lesson-header h1 { font-size: clamp(2.7rem, 5vw, 4.7rem); }
 .lesson-subtitle { font-size: 1.1rem; }
 .verification-status { border: 1px solid currentColor; }
-.lesson-layout { grid-template-columns: minmax(0, 1fr) 260px; gap: 52px; margin-top: 34px; }
+@media (min-width: 1081px) {
+  .lesson-layout { grid-template-columns: minmax(0, 1fr) 260px; gap: 52px; margin-top: 34px; }
+}
 .lesson-content > section { margin-top: 58px; }
 .concept-list { border-top-color: #aaa89f; }
 .concept-entry { padding: 24px 0; border-bottom-color: #d0cdc4; }
@@ -319,6 +321,7 @@ body {
 @media (max-width: 1080px) {
   .app-content { margin-left: 252px; }
   .sidebar { width: 252px; }
+  .lesson-layout { grid-template-columns: minmax(0, 1fr); gap: 36px; margin-top: 34px; }
 }
 
 @media (max-width: 780px) {
