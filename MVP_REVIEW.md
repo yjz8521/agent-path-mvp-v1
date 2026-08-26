@@ -1,16 +1,17 @@
 # MVP V1 驗收報告
 
 驗收日期：2026-08-25  
-版本：Course 0.1.0  
-結論：MVP V1 可在本機啟動並完成主要學習流程；Phase 3–10 尚未實作，只保留鎖定路線圖。
+版本：Course 0.2.0
+結論：MVP V1 可在本機啟動並完成主要學習流程；Phase 1–3 共 21 課已提供，Phase 4–11 保留為鎖定路線圖。
 
 ## 1. Product Review
 
 ### 已完成
 
-- Dashboard：目前站點、16 課進度、測驗平均、下一課、Project 證據狀態。
+- Dashboard：目前站點、21 課進度、測驗平均、下一課、Project 證據狀態。
 - Phase 1：10 堂完整基礎課，涵蓋 LLM、Prompt、Agent、Tool、Workflow、Skill、Plugin、Memory、Knowledge Base。
 - Phase 2：6 堂 Coze 起步課，完成最小 `Start → LLM → End` Workflow 心智模型。
+- Phase 3：5 堂 Hermes Agent 入門課，涵蓋 Runtime、Provider、Tools、Skills、Memory 與安全邊界。
 - 每課包含學習目標、白話與正式定義、比喻、圖解、案例、操作、練習、測驗、Debug、總結與官方來源。
 - 名詞百科、Debug Lab、可複製的 AI Tutor 提示詞。
 - localStorage 保存課程完成、測驗答案／分數、最後課程與 Project 證據。
@@ -18,10 +19,11 @@
 
 ### 未完成（刻意排除於 MVP V1）
 
-- Phase 3–10 課程內容與實作。
+- Phase 4–11 課程內容與實作。
 - 後端、帳號、多裝置同步、雲端資料庫、管理後台。
 - 分析追蹤、課程內容 CMS。
 - Coze 雲端介面的逐按鈕自動驗收；介面與命名會改版，仍需在使用者目前登入版本確認。
+- Hermes 的真實 Provider 金鑰、模型費用與本機安裝結果；課程只提供安全、可驗證的操作框架。
 
 ## 2. Technical Review
 
@@ -32,6 +34,7 @@
 - Quiz 狀態隔離：Lesson 1 送出後切到 Lesson 2，沒有殘留選項或解析，送出按鈕維持停用。
 - Project 證據：Lesson 16 記錄後重新載入仍存在；Dashboard 顯示 `1/1`。
 - 來源對應：Lesson 1 與 Lesson 13 顯示不同且與課程主題相符的官方來源。
+- Hermes 課程來源：Lesson 17–21 各自連結 Hermes 官方文件，並標記命令、Provider 與安全設定的版本敏感性。
 - 響應式：320／375／390／480／780／1080px 實際 Chromium 檢查；Lesson 內容在 1080px 以下均為單欄，320px 仍保有 300px 可讀內容寬度，且各尺寸沒有水平溢出。
 - 瀏覽器 console / page errors：0。
 - 字型：Figtree、JetBrains Mono 與 Noto Sans TC 均由套件自帶，不依賴遠端字型服務。
@@ -73,6 +76,6 @@
 
 ## 下一版本優先順序
 
-1. 先以 3–5 位初學者完成 Phase 1–2 可用性測試，觀察卡點與完成時間。
-2. 根據測試結果修正課程密度、題目難度與 Coze 版本差異提示。
-3. 再決定是否進入 Phase 3 Workflow 思維；不得一次展開 Phase 3–10。
+1. 先以 3–5 位初學者完成 Phase 1–3 可用性測試，觀察 Coze → Hermes 的銜接卡點與完成時間。
+2. 根據測試結果修正課程密度、題目難度、Coze 版本差異與 Hermes 安全說明。
+3. 再決定是否進入 Phase 4 Workflow 思維；不得一次展開 Phase 4–11。

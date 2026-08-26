@@ -18,7 +18,7 @@ delegated: React + TypeScript + Vite，採單頁前端、靜態課程資料與 l
 
 ## Product Purpose
 
-建立可在本機運行的互動式學習課程，讓學習者從 AI 基礎概念開始，依序完成 Coze、Workflow、API、n8n、Dify、RAG、MCP、Python、LangChain、LangGraph 與 Multi-Agent 的理解、練習與能力檢核。成功不是看完內容，而是能獨立判斷任務應使用 Agent、Workflow、Tool、API、MCP 或人工審核，並能完成系統設計。
+建立可在本機運行的互動式學習課程，讓學習者從 AI 基礎概念開始，依序完成 Coze、Hermes、Workflow、API、n8n、Dify、RAG、MCP、Python、LangChain、LangGraph 與 Multi-Agent 的理解、練習與能力檢核。成功不是看完內容，而是能獨立判斷任務應使用 Agent、Workflow、Tool、API、MCP 或人工審核，並能完成系統設計。
 
 ## Positioning
 
@@ -28,7 +28,7 @@ delegated: React + TypeScript + Vite，採單頁前端、靜態課程資料與 l
 
 - 桌面瀏覽器為主要學習場景，並支援手機閱讀。
 - 每次學習約 30 至 60 分鐘，每週建議 3 至 5 課。
-- MVP V1 先完整提供 Phase 1、Phase 2 初始課程、Quiz、Progress Tracking 與 Glossary。
+- MVP V1 先完整提供 Phase 1、Phase 2 初始課程、Phase 3 Hermes 入門、Quiz、Progress Tracking 與 Glossary。
 - 課程內容需要能顯示版本、最後更新日期、工具版本與驗證狀態。
 
 ## Capabilities and Constraints

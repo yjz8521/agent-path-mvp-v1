@@ -1,7 +1,7 @@
 # MVP V1 官方來源與版本敏感性核對
 
-- 查證基準日：2026-08-24
-- 適用範圍：Phase 1「AI Agent 基礎」與 Phase 2「Coze 初始課程」
+- 查證基準日：2026-08-26
+- 適用範圍：Phase 1「AI Agent 基礎」、Phase 2「Coze 初始課程」與 Phase 3「Hermes Agent」
 - 來源限制：只使用官方文件、官方規格或官方 GitHub
 
 ## 狀態說明
@@ -144,11 +144,53 @@
 
 ### 4. Coze 雲端版的待確認事項
 
-- **Claim**：Coze 官方雲端文件存在 Workflow 與 Chatflow 導覽，但頁面為動態內容；僅憑目前可抓取文字不足以確認 2026-08-24 每個按鈕、選單與點擊路徑。  
-  **狀態**：待確認。  
+- **Claim**：Coze 官方雲端文件存在 Workflow 與 Chatflow 導覽，但頁面為動態內容；僅憑目前可抓取文字不足以確認 2026-08-24 每個按鈕、選單與點擊路徑。
+  **狀態**：待確認。
   **官方來源**：[Coze Workflow and Chatflow](https://www.coze.com/open/docs/guides/workflow_and_chatflow)、[Coze Use Workflow](https://www.coze.com/open/docs/use_workflow)
 
-## 三、其他平台的版本敏感核對
+## 三、Phase 3 Hermes Agent
+
+### 1. Hermes 的定位與執行入口
+
+- **Claim**：Hermes Agent 是由 Nous Research 維護的自主 Agent 系統，提供 CLI、Desktop 與 Gateway 等入口，並以工具、Skills、Memory、排程與訊息平台延伸工作能力；它不是單獨一個模型。
+  **狀態**：已確認。
+  **官方來源**：[Hermes Agent 官方文件](https://hermes-agent.nousresearch.com/docs/)、[Hermes Features Overview](https://hermes-agent.nousresearch.com/docs/user-guide/features/overview)
+
+- **教學判斷**：Coze 偏向視覺化建置與發布 Agent／Workflow；Hermes 偏向讓 Agent 在本機、遠端或雲端環境使用工具持續完成任務。這是依兩個官方產品定位所做的課程分層推論，不表示兩者不能一起使用。
+  **狀態**：已確認（教學推論）。
+  **官方來源**：[Coze 低代碼工作流](https://docs.coze.cn/guides_workflow)、[Hermes Agent 官方文件](https://hermes-agent.nousresearch.com/docs/)
+
+### 2. 安裝與 Provider
+
+- **Claim**：Hermes 可透過 Desktop 或命令列安裝；使用前需要至少設定一個模型 Provider，官方支援雲端 Provider 與 OpenAI-compatible custom endpoint。
+  **狀態**：版本敏感。
+  **官方來源**：[Hermes Installation](https://hermes-agent.nousresearch.com/docs/getting-started/installation/)、[Hermes AI Providers](https://hermes-agent.nousresearch.com/docs/integrations/providers/)
+
+- **課程邊界**：不在教材中保存 API 金鑰，不把某一個模型、價格、按鈕位置或登入流程寫成永久不變；實際可用 Provider、模型與上下文需求依官方目前版本與帳號確認。
+  **狀態**：版本敏感。
+  **官方來源**：[Hermes Quickstart](https://hermes-agent.nousresearch.com/docs/getting-started/quickstart/)、[Hermes AI Providers](https://hermes-agent.nousresearch.com/docs/integrations/providers/)
+
+### 3. Tools、Toolsets、Skills 與 Memory
+
+- **Claim**：Hermes 將 web、file、terminal、browser、memory、delegation 等能力分成可管理的 Toolset；Skill 是可按需載入的程序文件，用來保存任務方法與規則，不等於外部 Tool。
+  **狀態**：已確認。
+  **官方來源**：[Hermes Tools & Toolsets](https://hermes-agent.nousresearch.com/docs/user-guide/features/tools/)、[Hermes Skills System](https://hermes-agent.nousresearch.com/docs/user-guide/features/skills/)
+
+- **Claim**：Hermes 提供跨工作階段的持久記憶與 Session／歷史查找能力，但記憶仍需範圍、來源與敏感資料邊界；不應把完整秘密或所有對話無限保存。
+  **狀態**：已確認（安全教學邊界）。
+  **官方來源**：[Hermes Features Overview](https://hermes-agent.nousresearch.com/docs/user-guide/features/overview)、[Hermes Slash Commands](https://hermes-agent.nousresearch.com/docs/reference/slash-commands)
+
+### 4. MCP 與安全執行
+
+- **Claim**：Hermes 可透過 MCP 連接外部工具與資源，動態 MCP 工具會以獨立 Toolset 管理；實際 Server、Transport、憑證與工具選擇仍需個別核對。
+  **狀態**：版本敏感。
+  **官方來源**：[Hermes Toolsets Reference](https://hermes-agent.nousresearch.com/docs/reference/toolsets-reference)、[Hermes Quickstart — MCP](https://hermes-agent.nousresearch.com/docs/getting-started/quickstart/)
+
+- **Claim**：Hermes 的安全設計包含危險命令批准、使用者授權、容器／遠端隔離、MCP 憑證過濾與輸入檢查；批准提示不是作業系統級 containment 的替代品。
+  **狀態**：已確認。
+  **官方來源**：[Hermes Security](https://hermes-agent.nousresearch.com/docs/user-guide/security/)、[Hermes SECURITY.md](https://github.com/NousResearch/hermes-agent/blob/main/SECURITY.md)
+
+## 四、其他平台的版本敏感核對
 
 ### Dify
 
@@ -208,16 +250,17 @@
   **狀態**：已確認。  
   **官方來源**：[LangGraph Overview](https://docs.langchain.com/oss/python/langgraph/overview)、[LangGraph Graph API](https://docs.langchain.com/oss/python/langgraph/graph-api)
 
-## 四、MVP V1 內容採用結論
+## 五、MVP V1 內容採用結論
 
 1. Phase 1 可正式教授：LLM、Prompt、Agent、Tool、Workflow、Agent vs Workflow、Memory、Knowledge Base。
 2. Skill 與 Plugin 必須標註「平台定義不同」，避免塑造成業界唯一標準。
 3. Phase 2 初始六課可保留：Coze 是什麼、建立第一個 Agent、建立第一個 Workflow、Start Node、LLM Node、End Node。
 4. 第一個 Coze Workflow 可使用 `Start → LLM → End`；這三個名稱已有固定官方 commit 佐證。
 5. Coze 的 Condition、Variable、Plugin、System Prompt／User Prompt 可見文案與所有點擊路徑要標示版本日期，並在發布操作課前以目標 Coze 雲端環境重新核對。
-6. Dify、n8n、MCP、LangChain、LangGraph 在 MVP V1 僅作概念交叉驗證或版本警示，不提前擴充成後續 Phase 的操作課。
+6. Phase 3 Hermes 可正式教授 Runtime、Provider、Tools、Toolsets、Skills、Memory 與安全邊界；不把特定命令、模型價格或本機路徑寫成永久不變。
+7. Dify、n8n、MCP、LangChain、LangGraph 的深度操作仍保留在後續 Phase，不因 Hermes 的 MCP 內容提前展開完整 MCP 課程。
 
-## 五、發布前重新驗證清單
+## 六、發布前重新驗證清單
 
 - [ ] 登入課程實際使用的 Coze 區域與帳號方案，核對建立 Agent／Workflow 的選單與按鈕名稱。
 - [ ] 實際建立並 Test Run `Start → LLM → End`，核對輸入、Prompt、輸出與錯誤面板。
@@ -226,3 +269,4 @@
 - [ ] 若教材提到 MCP，重新核對 Current Protocol Version，不把 2025 年 Session 架構當成現行規格。
 - [ ] 若教材提到 n8n Agent Builder 或 Skill，重新確認 Preview 狀態。
 - [ ] 若教材出現 LangChain／LangGraph 程式碼，鎖定套件版本並以該版本官方文件驗證。
+- [ ] Hermes 若出現 Provider、命令、Toolset、MCP 或安全設定，重新核對目前官方版本與本機安裝結果。

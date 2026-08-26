@@ -12,7 +12,7 @@ interface SidebarProps {
 }
 
 export function Sidebar({ activeView, selectedLessonId, completedLessonIds, onView, onLesson }: SidebarProps) {
-  const [expanded, setExpanded] = useState<number[]>([1, 2])
+  const [expanded, setExpanded] = useState<number[]>([1, 2, 3])
   const [mobileOpen, setMobileOpen] = useState(false)
 
   const togglePhase = (phaseId: number) => {
@@ -53,7 +53,7 @@ export function Sidebar({ activeView, selectedLessonId, completedLessonIds, onVi
           </button>
         </nav>
 
-        <div className="route-legend"><span>課程路線</span><span>{completedLessonIds.length}/16</span></div>
+        <div className="route-legend"><span>課程路線</span><span>{completedLessonIds.length}/{lessons.length}</span></div>
         <div className="phase-list">
           {phases.map((phase) => {
             const phaseLessons = lessons.filter((lesson) => lesson.phase === phase.id)
@@ -92,7 +92,7 @@ export function Sidebar({ activeView, selectedLessonId, completedLessonIds, onVi
             )
           })}
         </div>
-        <div className="sidebar-version"><BookOpenText size={16} /><span>Course 0.1.0<br /><small>更新：2026-08-24</small></span></div>
+        <div className="sidebar-version"><BookOpenText size={16} /><span>Course 0.2.0<br /><small>更新：2026-08-26</small></span></div>
       </aside>
     </>
   )

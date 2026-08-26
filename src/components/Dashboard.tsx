@@ -20,18 +20,19 @@ export function Dashboard({ state, progressPercent, completedCount, averageScore
   const nextLesson = lessons[Math.min((currentIndex === -1 ? lessons.length - 1 : currentIndex) + 1, lessons.length - 1)]
   const projectComplete = state.projectEvidenceIds.includes('coze-business-analysis')
   const hasQuizScores = Object.keys(state.quizScores).length > 0
+  const progressTicks = Array.from({ length: 5 }, (_, index) => Math.round((lessons.length * index) / 4))
 
   return (
     <main className="page dashboard-page" id="main-content">
       <header className="page-header dashboard-header">
         <div>
           <h1>下一站，不是更多術語。<br />是把一個問題判斷清楚。</h1>
-          <p>沿著 16 堂 MVP 課程，先建立心智模型，再完成第一條 Coze Workflow。</p>
+          <p>沿著 {lessons.length} 堂 MVP 課程，先建立心智模型，再完成 Coze Workflow 與 Hermes 只讀任務。</p>
         </div>
         <div className="course-stamp" aria-label="課程版本資訊">
-          <span>Course 0.1.0</span>
+          <span>Course 0.2.0</span>
           <strong>核心概念已查證</strong>
-          <small>2026-08-24</small>
+          <small>2026-08-26</small>
         </div>
       </header>
 
@@ -58,7 +59,7 @@ export function Dashboard({ state, progressPercent, completedCount, averageScore
           <div className="progress-track" role="progressbar" aria-valuemin={0} aria-valuemax={100} aria-valuenow={progressPercent}>
             <span style={{ width: `${progressPercent}%` }} />
           </div>
-          <div className="progress-ticks" aria-hidden="true"><span>0</span><span>4</span><span>8</span><span>12</span><span>16</span></div>
+          <div className="progress-ticks" aria-hidden="true">{progressTicks.map((tick) => <span key={tick}>{tick}</span>)}</div>
         </div>
         <dl className="metric-line">
           <div><dt>已完成課程</dt><dd>{completedCount}</dd></div>
@@ -72,7 +73,7 @@ export function Dashboard({ state, progressPercent, completedCount, averageScore
       <section className="route-board" aria-labelledby="route-title">
         <div className="section-heading">
           <span className="section-mark" aria-hidden="true" />
-          <div><h2 id="route-title">完整路線圖</h2><p>本次只開放 Phase 1–2；後續階段保留順序，不以標題占位冒充完成內容。</p></div>
+          <div><h2 id="route-title">完整路線圖</h2><p>本次只開放 Phase 1–3；後續階段保留順序，不以標題占位冒充完成內容。</p></div>
         </div>
         <div className="route-map">
           {phases.map((phase) => {

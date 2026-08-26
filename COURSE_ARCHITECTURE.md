@@ -10,10 +10,11 @@
 
 1. 把一個模糊需求拆成 Trigger、固定步驟、AI 判斷、Tool、API、人工審核與輸出。
 2. 判斷何時適合 Agent、Workflow、API、MCP 或傳統程式。
-3. 在 Coze、n8n、Dify 中建立與調試基礎流程。
-4. 用 Python 呼叫 API、處理 JSON、驗證輸入輸出與處理錯誤。
-5. 用 LangChain / LangGraph 建立可追蹤狀態、可重試、可人工介入的 Agent 流程。
-6. 設計具來源驗證、權限、成本、日誌與人工批准邊界的 Multi-Agent 系統。
+3. 在 Coze 與 Hermes 中理解「建置 Workflow」和「運行 Agent」的差異。
+4. 在 n8n、Dify 中建立與調試基礎流程。
+5. 用 Python 呼叫 API、處理 JSON、驗證輸入輸出與處理錯誤。
+6. 用 LangChain / LangGraph 建立可追蹤狀態、可重試、可人工介入的 Agent 流程。
+7. 設計具來源驗證、權限、成本、日誌與人工批准邊界的 Multi-Agent 系統。
 
 ## 2. 進度與通關規則
 
@@ -30,18 +31,19 @@
 |---|---|---|---|---|
 | 1 | 0–1 | AI、LLM、Prompt、Agent、Tool、Workflow、Skill、Plugin、Memory、Knowledge Base | Agent vs Workflow 決策圖 | Week 1–3 |
 | 2 | 2–3 | Coze Agent 與基礎 Workflow | AI 商業分析助手 | Week 4–6 |
-| 3 | 3–4 | Sequential、Branch、Condition、Loop、Retry、Approval、Router、Parallel | 詢價流程設計稿 | Week 7–8 |
-| 4 | 4–6 | Variable、JSON、API、Request/Response、Webhook | 可讀懂並測試 API | Week 9–11 |
-| 5 | 7 | n8n Trigger、Node、HTTP、IF、Switch、Merge、Loop、Error Workflow | AI 新聞分析 Workflow | Week 12–14 |
-| 6 | 8–9 | Dify Application、Chatflow、Workflow、Dataset、RAG、Retrieval | 公司知識助手 | Week 15–16 |
-| 7 | 10 | MCP Host、Client、Server、Tool、Resource、Prompt、Transport | MCP 連接設計 | Week 17–18 |
-| 8 | 11 | Agent 開發所需 Python、JSON、HTTP、環境變數、Exception | Python API 小工具 | Week 19–21 |
-| 9 | 12–13 | LangChain 與 LangGraph Node、Edge、State、Router、Loop、HITL、Persistence | Planner–Research–Reviewer Graph | Week 22–24 |
-| 10 | 14–15 | Multi-Agent、Shared Memory、Task State、Permission、Logging、Retry、Cost、Model Routing | AI Command Center | Week 25–26+ |
+| 3 | 3–4 | Hermes Runtime、Provider、Tools、Skills、Memory、安全隔離 | Hermes 只讀任務證據卡 | Week 7–8 |
+| 4 | 3–4 | Sequential、Branch、Condition、Loop、Retry、Approval、Router、Parallel | 詢價流程設計稿 | Week 9–10 |
+| 5 | 4–6 | Variable、JSON、API、Request/Response、Webhook | 可讀懂並測試 API | Week 11–13 |
+| 6 | 7 | n8n Trigger、Node、HTTP、IF、Switch、Merge、Loop、Error Workflow | AI 新聞分析 Workflow | Week 14–16 |
+| 7 | 8–9 | Dify Application、Chatflow、Workflow、Dataset、RAG、Retrieval | 公司知識助手 | Week 17–18 |
+| 8 | 10 | MCP Host、Client、Server、Tool、Resource、Prompt、Transport | MCP 連接設計 | Week 19–20 |
+| 9 | 11 | Agent 開發所需 Python、JSON、HTTP、環境變數、Exception | Python API 小工具 | Week 21–23 |
+| 10 | 12–13 | LangChain 與 LangGraph Node、Edge、State、Router、Loop、HITL、Persistence | Planner–Research–Reviewer Graph | Week 24–25 |
+| 11 | 14–15 | Multi-Agent、Shared Memory、Task State、Permission、Logging、Retry、Cost、Model Routing | AI Command Center | Week 26+ |
 
 ## 4. MVP V1 的完整可學範圍
 
-MVP 只把以下 16 課標記為「完整課程」。其餘 Phase 在 UI 中只顯示路線圖與「尚未開放」，不能計入已完成課程。
+MVP V1 現在把以下 21 課標記為「完整課程」。其餘 Phase 在 UI 中只顯示路線圖與「尚未開放」，不能計入已完成課程。
 
 ### Phase 1｜AI Agent 基礎（Lesson 01–10）
 
@@ -69,54 +71,64 @@ Phase 1 Mastery Check：面對「每日固定抓新聞」與「開放式研究�
 
 Phase 2 初始成果：完成 `Start → LLM → End` 的 AI 商業分析助手。所有 UI 名稱與位置屬版本敏感內容；課程先教穩定概念，操作畫面需依當前官方版本核對。
 
+### Phase 3｜Hermes Agent（Lesson 17–21）
+
+17. Hermes Agent 是什麼：Coze 與 Agent Runtime 的差異
+18. Hermes Desktop 與模型 Provider
+19. Tools 與 Skills：能力、工具組與方法
+20. Memory 與工作階段
+21. 安全執行與最小權限實作
+
+Phase 3 初始成果：完成一張 Hermes 只讀任務證據卡，能說出模型、Runtime、Toolset、Skill、Memory、批准與隔離的邊界。課程不替使用者填入 API 金鑰，也不把本機寫入、刪除或對外傳送當成自動完成。
+
 ## 5. 後續完整課程地圖
 
-### Phase 3｜Workflow 思維
+### Phase 4｜Workflow 思維
 
 - Sequential Flow、Branch、Condition、Loop
 - Retry、Error Handling、Human Approval
 - Router、Parallel Task、合併輸出
 - Mastery：設計「詢價 → 查資料 → 生成回覆 → 主管批准 → 寄出」流程
 
-### Phase 4｜API + JSON
+### Phase 5｜API + JSON
 
 - 軟體之間如何溝通、Endpoint、Request、Response
 - GET、POST、Header、API Key、Parameter、Body、Status Code
 - JSON 的 object、array、string、number、boolean、null
 - Webhook 與同步／事件觸發的差異
 
-### Phase 5｜n8n
+### Phase 6｜n8n
 
 - AI 新聞分析工作流：Schedule → 取得 → 分類 → 摘要 → 判斷 → 儲存 → 報告
 - 商業詢價助手：接收 → 分類 → 查詢 → 草稿 → 人工確認 → 寄送
 - Credentials、HTTP Request、IF、Switch、Merge、Loop、Code Node、Error Workflow
 
-### Phase 6｜Dify + RAG
+### Phase 7｜Dify + RAG
 
 - Application、Chatflow、Workflow、Dataset、Knowledge Retrieval
 - Model Provider、API、Agent、Tool
 - Coze vs Dify：使用情境、知識管理與部署控制的比較
 
-### Phase 7｜MCP
+### Phase 8｜MCP
 
 - MCP 為何出現、傳統 API Integration vs MCP
 - Host、Client、Server、Tool、Resource、Prompt、Transport
 - 權限最小化、可見資源與可執行工具的差異
 
-### Phase 8｜Agent 所需 Python
+### Phase 9｜Agent 所需 Python
 
 - variable、string、int、float、bool、list、dict
 - if、for、function、import、package、pip、virtual environment
 - JSON、HTTP Request、environment variable、exception
 - 所有範例與 Agent 輸入、Tool、API 回應或錯誤處理連結
 
-### Phase 9｜LangChain + LangGraph
+### Phase 10｜LangChain + LangGraph
 
 - LangChain：LLM + Prompt + Tool + Memory + Agent
 - LangGraph：Node、Edge、State、Conditional Edge、Router、Loop
 - Human-in-the-loop、Persistence、Reviewer 與 Retry
 
-### Phase 10｜Multi-Agent
+### Phase 11｜Multi-Agent
 
 - Chief Agent、Planner、Router、專業 Agent、Reviewer、Output
 - Shared Memory、Task State、Logging、Permission、Human Approval
@@ -184,7 +196,7 @@ React + TypeScript + Vite
 
 ## 10. MVP 驗收標準
 
-- 16 課都有完整固定欄位，不是標題占位。
+- 21 課都有完整固定欄位，不是標題占位。
 - Dashboard、Sidebar、Lesson、Quiz、Progress、Glossary 可操作。
 - 重整瀏覽器後完成狀態與測驗分數仍存在。
 - 錯題逐題顯示診斷與原因，不只顯示總分。

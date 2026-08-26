@@ -23,6 +23,11 @@ const lessonSources: Record<string, Lesson['sources']> = {
   'lesson-14': [{ title: 'Coze Studio Start Node Metadata（固定 commit）', url: 'https://github.com/coze-dev/coze-studio/blob/fefb05ff27be1da939612fbf9faf5db62583b8ae/backend/domain/workflow/entity/node_meta.go#L241-L255' }],
   'lesson-15': [{ title: 'Coze Studio LLM Node Metadata（固定 commit）', url: 'https://github.com/coze-dev/coze-studio/blob/fefb05ff27be1da939612fbf9faf5db62583b8ae/backend/domain/workflow/entity/node_meta.go#L256-L274' }],
   'lesson-16': [{ title: 'Coze Studio End Node Metadata（固定 commit）', url: 'https://github.com/coze-dev/coze-studio/blob/fefb05ff27be1da939612fbf9faf5db62583b8ae/backend/domain/workflow/entity/node_meta.go#L275-L294' }, { title: 'Coze Studio Workflow Node Guide', url: 'https://github.com/coze-dev/coze-studio/wiki/11.-Add-new-workflow-node-types-%28backend%29' }],
+  'lesson-17': [{ title: 'Hermes Agent 官方文件', url: 'https://hermes-agent.nousresearch.com/docs/' }, { title: 'Coze 低代碼工作流介紹', url: 'https://docs.coze.cn/guides_workflow' }],
+  'lesson-18': [{ title: 'Hermes 安裝指南', url: 'https://hermes-agent.nousresearch.com/docs/getting-started/installation/' }, { title: 'Hermes AI Providers', url: 'https://hermes-agent.nousresearch.com/docs/integrations/providers/' }],
+  'lesson-19': [{ title: 'Hermes Tools & Toolsets', url: 'https://hermes-agent.nousresearch.com/docs/user-guide/features/tools/' }, { title: 'Hermes Skills System', url: 'https://hermes-agent.nousresearch.com/docs/user-guide/features/skills/' }],
+  'lesson-20': [{ title: 'Hermes Features Overview', url: 'https://hermes-agent.nousresearch.com/docs/user-guide/features/overview' }, { title: 'Hermes Slash Commands（Memory／Session）', url: 'https://hermes-agent.nousresearch.com/docs/reference/slash-commands' }],
+  'lesson-21': [{ title: 'Hermes Security', url: 'https://hermes-agent.nousresearch.com/docs/user-guide/security/' }, { title: 'Hermes Tool Runtime', url: 'https://hermes-agent.nousresearch.com/docs/developer-guide/tools-runtime/' }],
 }
 
 export function makeLesson(input: LessonInput): Lesson {

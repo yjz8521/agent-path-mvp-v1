@@ -2,13 +2,13 @@
 
 本機互動式繁體中文課程，提供：
 
-- Dashboard、16 堂完整課程（Phase 1 十課、Phase 2 六課）
+- Dashboard、21 堂完整課程（Phase 1 十課、Phase 2 六課、Phase 3 Hermes 五課）
 - 逐題 Quiz 診斷、分段提示與獨立答案揭示
 - localStorage 完成進度與測驗分數
 - 名詞百科、Debug Lab、AI Tutor Prompt
 - 桌面與手機響應式介面
 
-Phase 3–10 目前只顯示路線圖與「尚未開放」，不屬於已完成課程。
+Phase 4–11 目前只顯示路線圖與「尚未開放」，不屬於已完成課程；Phase 3 Hermes 以 Coze 為前置，先教 Runtime、Provider、Tools、Skills、Memory 與安全邊界。
 
 ## 最簡單的啟動方式
 

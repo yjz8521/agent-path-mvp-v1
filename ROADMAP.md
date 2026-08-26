@@ -29,7 +29,7 @@
 - [ ] 繼續學習／目前課程／下一課
 - [ ] 測驗平均分
 - [ ] Project 進度
-- [ ] 10 Phase 路線圖與未開放標記
+- [ ] 11 Phase 路線圖與未開放標記
 
 驗收：所有數字由同一份狀態推導，不使用假的即時資料。
 
@@ -41,7 +41,7 @@
 - [ ] 上一課／下一課／完成本課
 - [ ] 閱讀位置與鍵盤焦點合理
 
-驗收：任選 Phase 1、Phase 2 課程，都能從頭到尾完整學習。
+驗收：任選 Phase 1、Phase 2、Phase 3 課程，都能從頭到尾完整學習。
 
 ## Milestone 4｜Progress Tracking
 
@@ -68,7 +68,7 @@
 
 - [ ] 搜尋英文、中文、白話解釋
 - [ ] 英文 → 中文 → 白話 → 正式定義 → 例子 → 常見混淆
-- [ ] 至少涵蓋 MVP 首次出現的所有關鍵術語
+- [ ] 至少涵蓋 MVP 首次出現的所有關鍵術語，包括 Hermes、Provider、Toolset、Skill、Memory 與 Isolation
 - [ ] 從課程可返回名詞百科
 
 驗收：LLM、Prompt、Agent、Tool、Workflow、Skill、Plugin、Memory、Knowledge Base、Coze、Node 可搜尋。
@@ -78,8 +78,10 @@
 - [ ] Phase 1 Lesson 01–10 完整內容
 - [ ] Phase 1 Mastery Check
 - [ ] Phase 2 Lesson 11–16 完整內容
+- [ ] Phase 3 Lesson 17–21 Hermes 完整內容
 - [ ] AI 商業分析助手練習
 - [ ] Phase 2 UI 操作標記版本敏感
+- [ ] Phase 3 命令、Provider 與安全設定標記版本敏感
 
 驗收：每課有完整資料欄位、練習、Quiz、錯誤與 Debug 方法；沒有用標題占位冒充內容。
 
@@ -109,8 +111,8 @@
 
 ## V1.1 之後（不屬本次 MVP）
 
-1. Phase 3 Workflow Design 與 Mastery Check
-2. Phase 4 API + JSON 互動練習
+1. Phase 4 Workflow Design 與 Mastery Check
+2. Phase 5 API + JSON 互動練習
 3. n8n / Dify / MCP 的當期官方 UI 實作教學
 4. Python 沙盒或外部練習連結
 5. LangGraph 視覺化狀態練習

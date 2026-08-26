@@ -94,6 +94,6 @@ export const phaseTwoLessons = [
     quiz: [question('q16', 'scenario', '最可靠的 Debug 順序是？', ['一直重跑直到成功', '看錯誤 → 找節點 → 查 Input → 查 Output → 查變數 → 修改一項再測', '把所有節點一起刪掉'], 1, '逐站用執行證據定位第一個異常點，能避免盲目修改。', '沿著資料流查第一個不符合預期的地方。')],
     commonErrors: [{ mistake: 'End 映射到錯欄位', cause: '輸出名稱相似', fix: '從 Run Log 核對節點與欄位' }, { mistake: '完成一次正常測試就結束', cause: '忽略邊界情境', fix: '至少測正常、空白、衝突' }],
     debugSteps: ['看完整錯誤訊息。', '找第一個失敗或資料異常的 Node。', '依序比較該 Node 的 Input、Output 與 Variable。', '只修改一項後，用同一筆資料重測。', '記錄原因與修復結果。'],
-    summary: ['End Node 定義穩定輸出。', 'Run Log 是 Workflow 除錯的主要證據。', 'MVP 第一個專案完成：Start → LLM → End。'], nextLesson: 'MVP V1 到此完成；後續 Phase 尚未開放。', verification: '版本敏感', sourceNote: cozeSource,
+    summary: ['End Node 定義穩定輸出。', 'Run Log 是 Workflow 除錯的主要證據。', 'MVP 第一個專案完成：Start → LLM → End。'], nextLesson: '下一課：Hermes Agent 是什麼', verification: '版本敏感', sourceNote: cozeSource,
   }),
 ]
